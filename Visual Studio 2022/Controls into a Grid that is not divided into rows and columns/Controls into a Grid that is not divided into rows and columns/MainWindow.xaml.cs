@@ -32,7 +32,8 @@ public partial class MainWindow : Window
                 button.VerticalAlignment = VerticalAlignment.Top;
 
                 button.Margin = new Thickness(20 + i * 110, 10 + j * 55, 0, 0);
-                container.Children.Add(button);
+                container.Children.Add(button)
+                container.child
             }
         }
     }
