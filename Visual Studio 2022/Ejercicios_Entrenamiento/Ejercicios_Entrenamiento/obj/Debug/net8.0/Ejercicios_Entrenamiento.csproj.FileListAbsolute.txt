@@ -1,0 +1,14 @@
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\bin\Debug\net8.0\Ejercicios_Entrenamiento.exe
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\bin\Debug\net8.0\Ejercicios_Entrenamiento.deps.json
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\bin\Debug\net8.0\Ejercicios_Entrenamiento.runtimeconfig.json
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\bin\Debug\net8.0\Ejercicios_Entrenamiento.dll
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\bin\Debug\net8.0\Ejercicios_Entrenamiento.pdb
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\obj\Debug\net8.0\Ejercicios_Entrenamiento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\obj\Debug\net8.0\Ejercicios_Entrenamiento.AssemblyInfoInputs.cache
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\obj\Debug\net8.0\Ejercicios_Entrenamiento.AssemblyInfo.cs
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\obj\Debug\net8.0\Ejercicios_Entrenamiento.csproj.CoreCompileInputs.cache
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\obj\Debug\net8.0\Ejercicios_Entrenamiento.dll
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\obj\Debug\net8.0\refint\Ejercicios_Entrenamiento.dll
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\obj\Debug\net8.0\Ejercicios_Entrenamiento.pdb
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\obj\Debug\net8.0\Ejercicios_Entrenamiento.genruntimeconfig.cache
+C:\Users\Javier\source\repos\Ejercicios_Entrenamiento\Ejercicios_Entrenamiento\obj\Debug\net8.0\ref\Ejercicios_Entrenamiento.dll

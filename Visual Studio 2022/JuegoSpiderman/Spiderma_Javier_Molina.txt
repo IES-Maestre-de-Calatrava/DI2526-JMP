@@ -1,0 +1,8 @@
+Mi código lo he dividido en la clase ciudad que es el tablero de 15 por 15 con sus respectivos método, la clase Spiderman, en la que se encuentra toda mi lógica de movimientos y de comprobador de Eventos y luego la clase entidad.
+
+La clase entidad es una clase abstracta base para los diferentes tipos de enemigos o civiles que hay además de las casillas de bonus, se le pasa las posiciones y relacionándola con el tablero de enemigos voy creando estos objetos entidad que realizan sus respectivas acciones.
+
+Con cada movimiento se comprueba sobre que letra ha caído y en caso de no ser neutra, se lanzan los métodos de accion de los enemigos que se ven en el tablero, restas vidas, salto doble, cambiar de posición...
+
+En programa.cs esta el main en el que me creo los objetos y un switch con las teclas de movimiento para controlar el juego, además de la lógica de morir o ganar.
+

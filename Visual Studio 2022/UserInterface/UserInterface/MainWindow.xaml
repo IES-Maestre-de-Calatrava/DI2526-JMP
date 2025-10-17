@@ -1,0 +1,99 @@
+﻿<Window x:Class="UserInterfaceLog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterfaceLog"
+        mc:Ignorable="d"
+        Title="Registro de Personas" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <!--Columna Izquierda-->
+        <Grid Grid.Column="0" Margin="10">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="Profesión:" Margin="0,0,0,5"/>
+            <TextBox Grid.Row="1" Name="txtProfesion" Margin="0,0,0,0"/>
+
+            <TextBlock Grid.Row="2" Text="Nº hermanos:" Margin="0,10,0,5"/>
+            <TextBox Grid.Row="3" Name="txtNHermanos" Margin="0,0,0,0" Width="100"/>
+
+            <TextBlock Grid.Row="4" Text="Edad:" Margin="0,0,0,5"/>
+            <ComboBox Grid.Row="5" x:Name="cbEdad"  Margin="0,0,0,0" Width="150">
+                <ComboBoxItem Content="Menor de 15"/>
+                <ComboBoxItem Content="De 15 a 18"/>
+                <ComboBoxItem Content="Mayor de 18"/>
+            </ComboBox>
+
+            <TextBlock Grid.Row="6" Text="Sexo:"  Margin="0,10,0,0" />
+            <RadioButton Grid.Row="7" x:Name="rbMasculino" Content="Masculino" Margin="30,0,0,0" />
+            <RadioButton Grid.Row="7" x:Name="rbFemenino" Content="Femenino" Margin="130,0,0,0" />
+
+            <CheckBox Grid.Row="8" x:Name="chkOtroDeporte" Content="¿Practica algún deporte?"  Margin="0,15,0,0"/>
+            <ComboBox Grid.Row="8" x:Name="cbDeporte"  Margin="130,15,0,0" Width="100">
+                <ComboBoxItem Content="Fútbol"/>
+                <ComboBoxItem Content="Tenis"/>
+                <ComboBoxItem Content="Baloncesto"/>
+            </ComboBox>
+
+            <Button Grid.Row="9" x:Name="btnRegistrar" Content="Registrar" Margin="0,0,0,0" Width="150" Height="50"/>
+
+        </Grid>
+
+        <Grid Grid.Column="1" Margin="10">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="Marque del 1 al 10 su grado de aficion a:" FontWeight="Bold" Margin="0,0,0,10"/>
+
+            <TextBlock Grid.Row="1" Text="Compras"/>
+            <Slider x:Name="sliderCompras" Grid.Row="2" Minimum="1" Maximum="10" TickFrequency="1"
+                IsSnapToTickEnabled="True" TickPlacement="BottomRight" Value="1"/>
+            <TextBlock Grid.Row="3" Text="{Binding ElementName=sliderCompras, Path=Value, StringFormat=' {0:F0}'}"/>
+
+            <TextBlock Grid.Row="4" Text="Ver televisión"/>
+            <Slider x:Name="sliderTV" Grid.Row="5" Minimum="1" Maximum="10" TickFrequency="1"
+                IsSnapToTickEnabled="True" TickPlacement="BottomRight" Value="1"/>
+            <TextBlock Grid.Row="6" Text="{Binding ElementName=sliderTV, Path=Value, StringFormat=' {0:F0}'}"/>
+
+            <TextBlock Grid.Row="7" Text="Cine"/>
+            <Slider x:Name="sliderCine" Grid.Row="8" Minimum="1" Maximum="10" TickFrequency="1"
+                IsSnapToTickEnabled="True" TickPlacement="BottomRight" Value="1"/>
+            <TextBlock Grid.Row="9" Text="{Binding ElementName=sliderCine, Path=Value, StringFormat=' {0:F0}'}"/>
+
+
+            <Button Grid.Row="9" x:Name="btnSalir" Content="Salir" Margin="0,75,0,0" Width="150" Height="50"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Javier\\source\\repos\\TableroX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6A6EB4B-7AAC-4DEB-B559-D4A46838E7FB}|TableroX\\TableroX.csproj|c:\\users\\javier\\source\\repos\\tablerox\\tablerox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6A6EB4B-7AAC-4DEB-B559-D4A46838E7FB}|TableroX\\TableroX.csproj|solutionrelative:tablerox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B27AC177-EED4-44D4-B269-8A013CA59616}|JuegoMario\\JuegoMario.csproj|c:\\users\\javier\\source\\repos\\tablerox\\juegomario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B27AC177-EED4-44D4-B269-8A013CA59616}|JuegoMario\\JuegoMario.csproj|solutionrelative:juegomario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\source\\repos\\TableroX\\JuegoMario\\Program.cs",
+              "RelativeDocumentMoniker": "JuegoMario\\Program.cs",
+              "ToolTip": "C:\\Users\\Javier\\source\\repos\\TableroX\\JuegoMario\\Program.cs",
+              "RelativeToolTip": "JuegoMario\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T11:29:44.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\source\\repos\\TableroX\\TableroX\\Program.cs",
+              "RelativeDocumentMoniker": "TableroX\\Program.cs",
+              "ToolTip": "C:\\Users\\Javier\\source\\repos\\TableroX\\TableroX\\Program.cs",
+              "RelativeToolTip": "TableroX\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:07:14.958Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

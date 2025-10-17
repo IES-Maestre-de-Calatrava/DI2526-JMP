@@ -1,0 +1,14 @@
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\obj\Debug\net8.0\JuegoMario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\obj\Debug\net8.0\JuegoMario.AssemblyInfoInputs.cache
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\obj\Debug\net8.0\JuegoMario.AssemblyInfo.cs
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\obj\Debug\net8.0\JuegoMario.csproj.CoreCompileInputs.cache
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\bin\Debug\net8.0\JuegoMario.exe
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\bin\Debug\net8.0\JuegoMario.deps.json
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\bin\Debug\net8.0\JuegoMario.runtimeconfig.json
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\bin\Debug\net8.0\JuegoMario.dll
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\bin\Debug\net8.0\JuegoMario.pdb
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\obj\Debug\net8.0\JuegoMario.dll
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\obj\Debug\net8.0\refint\JuegoMario.dll
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\obj\Debug\net8.0\JuegoMario.pdb
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\obj\Debug\net8.0\JuegoMario.genruntimeconfig.cache
+C:\Users\Javier\source\repos\JuegoMario\JuegoMario\obj\Debug\net8.0\ref\JuegoMario.dll

@@ -1,0 +1,14 @@
+C:\Users\Javier\source\repos\TableroX\TableroX\obj\Debug\net8.0\TableroX.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\source\repos\TableroX\TableroX\obj\Debug\net8.0\TableroX.AssemblyInfoInputs.cache
+C:\Users\Javier\source\repos\TableroX\TableroX\obj\Debug\net8.0\TableroX.AssemblyInfo.cs
+C:\Users\Javier\source\repos\TableroX\TableroX\obj\Debug\net8.0\TableroX.csproj.CoreCompileInputs.cache
+C:\Users\Javier\source\repos\TableroX\TableroX\bin\Debug\net8.0\TableroX.exe
+C:\Users\Javier\source\repos\TableroX\TableroX\bin\Debug\net8.0\TableroX.deps.json
+C:\Users\Javier\source\repos\TableroX\TableroX\bin\Debug\net8.0\TableroX.runtimeconfig.json
+C:\Users\Javier\source\repos\TableroX\TableroX\bin\Debug\net8.0\TableroX.dll
+C:\Users\Javier\source\repos\TableroX\TableroX\bin\Debug\net8.0\TableroX.pdb
+C:\Users\Javier\source\repos\TableroX\TableroX\obj\Debug\net8.0\TableroX.dll
+C:\Users\Javier\source\repos\TableroX\TableroX\obj\Debug\net8.0\refint\TableroX.dll
+C:\Users\Javier\source\repos\TableroX\TableroX\obj\Debug\net8.0\TableroX.pdb
+C:\Users\Javier\source\repos\TableroX\TableroX\obj\Debug\net8.0\TableroX.genruntimeconfig.cache
+C:\Users\Javier\source\repos\TableroX\TableroX\obj\Debug\net8.0\ref\TableroX.dll

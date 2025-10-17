@@ -1,0 +1,51 @@
+﻿<!-- Ventana principal de la aplicación -->
+    <Window x:Class="GRID.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GRID"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <!-- Contenedor principal: un Grid llamado "Email" -->
+    <Grid Name="Email">
+
+        <!-- Definición de filas -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />    <!-- Fila 0: altura automática (para "Name") -->
+            <RowDefinition Height="Auto" />    <!-- Fila 1: altura automática (para "E-mail") -->
+            <RowDefinition Height="*" />       <!-- Fila 2: ocupa el espacio restante (para "Comment") -->
+            <RowDefinition Height="28"/>       <!-- Fila 3: fija en 28 px (para el botón "Send") -->
+        </Grid.RowDefinitions>
+
+        <!-- Definición de columnas -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>    <!-- Columna 0: tamaño automático (para las etiquetas) -->
+            <ColumnDefinition Width="Auto"/>    <!-- Columna 1: tamaño automático (para el GridSplitter) -->
+            <ColumnDefinition Width="*"/>       <!-- Columna 2: ocupa el espacio restante (para TextBox y botón) -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Etiquetas descriptivas -->
+        <Label Grid.Row="0" Grid.Column="0" Content="Name:"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="E-mail:"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Comment:"/>
+
+        <!-- GridSplitter: barra que permite ajustar el ancho de las columnas -->
+        <GridSplitter HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                      Grid.RowSpan="3" Grid.Column="1" 
+                      ResizeBehavior="PreviousAndNext" Width="5" 
+                      Background="#FFBCBCBC"/>   <!-- Grid.RowSpan Ocupa 3 filas (Name, E-mail, Comment) -->
+                                                   <!-- ResizeBehaviour Ajusta columnas adyacentes -->
+
+        <!-- Cajas de texto para que el usuario escriba -->
+        <TextBox Grid.Column="2" Grid.Row="0" Margin="3"/>
+        <TextBox Grid.Column="2" Grid.Row="1" Margin="3"/>
+        <TextBox Grid.Column="2" Grid.Row="2" Margin="3"/>
+
+        <!-- Botón de envío -->
+        <Button Grid.Column="2" Grid.Row="3" HorizontalAlignment="Right"
+                MinWidth="80" Margin="3" Content="Send"/>
+
+    </Grid>
+</Window>

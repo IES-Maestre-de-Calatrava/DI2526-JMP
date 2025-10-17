@@ -1,0 +1,14 @@
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\obj\Debug\net8.0\EjercicioCoches.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\obj\Debug\net8.0\EjercicioCoches.AssemblyInfoInputs.cache
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\obj\Debug\net8.0\EjercicioCoches.AssemblyInfo.cs
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\obj\Debug\net8.0\EjercicioCoches.csproj.CoreCompileInputs.cache
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\bin\Debug\net8.0\EjercicioCoches.exe
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\bin\Debug\net8.0\EjercicioCoches.deps.json
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\bin\Debug\net8.0\EjercicioCoches.runtimeconfig.json
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\bin\Debug\net8.0\EjercicioCoches.dll
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\bin\Debug\net8.0\EjercicioCoches.pdb
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\obj\Debug\net8.0\EjercicioCoches.dll
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\obj\Debug\net8.0\refint\EjercicioCoches.dll
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\obj\Debug\net8.0\EjercicioCoches.pdb
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\obj\Debug\net8.0\EjercicioCoches.genruntimeconfig.cache
+C:\Users\Javier\source\repos\EjercicioCoches\EjercicioCoches\obj\Debug\net8.0\ref\EjercicioCoches.dll
