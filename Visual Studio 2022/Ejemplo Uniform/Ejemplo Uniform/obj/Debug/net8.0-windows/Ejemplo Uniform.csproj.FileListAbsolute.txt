@@ -1,0 +1,21 @@
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\bin\Debug\net8.0-windows\Ejemplo Uniform.exe
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\bin\Debug\net8.0-windows\Ejemplo Uniform.deps.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\bin\Debug\net8.0-windows\Ejemplo Uniform.runtimeconfig.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\bin\Debug\net8.0-windows\Ejemplo Uniform.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\bin\Debug\net8.0-windows\Ejemplo Uniform.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform_MarkupCompile.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform_MarkupCompile.lref
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform.g.resources
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform.AssemblyInfoInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform.AssemblyInfo.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform.csproj.CoreCompileInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform.sourcelink.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\refint\Ejemplo Uniform.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\Ejemplo Uniform.genruntimeconfig.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejemplo Uniform\Ejemplo Uniform\obj\Debug\net8.0-windows\ref\Ejemplo Uniform.dll

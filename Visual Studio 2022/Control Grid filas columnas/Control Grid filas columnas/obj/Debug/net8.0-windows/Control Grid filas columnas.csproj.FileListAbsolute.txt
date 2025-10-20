@@ -1,0 +1,21 @@
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\bin\Debug\net8.0-windows\Control Grid filas columnas.exe
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\bin\Debug\net8.0-windows\Control Grid filas columnas.deps.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\bin\Debug\net8.0-windows\Control Grid filas columnas.runtimeconfig.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\bin\Debug\net8.0-windows\Control Grid filas columnas.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\bin\Debug\net8.0-windows\Control Grid filas columnas.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas_MarkupCompile.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas_MarkupCompile.lref
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas.g.resources
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas.AssemblyInfoInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas.AssemblyInfo.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas.csproj.CoreCompileInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas.sourcelink.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\refint\Control Grid filas columnas.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\Control Grid filas columnas.genruntimeconfig.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Control Grid filas columnas\Control Grid filas columnas\obj\Debug\net8.0-windows\ref\Control Grid filas columnas.dll

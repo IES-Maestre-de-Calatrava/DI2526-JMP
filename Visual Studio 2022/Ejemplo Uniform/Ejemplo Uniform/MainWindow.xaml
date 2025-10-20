@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ejemplo_Uniform.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejemplo_Uniform"
+        mc:Ignorable="d"
+        Title="Contenedor Uniform" Height="250" Width="400">
+    <!--Creo un grid en el que las celdas son del mismo tamaño-->
+    <UniformGrid Rows="2" Columns="3">
+       <Button Content="BTN 1 1" Height="25" Width="80"/>
+        <Button Content="BTN 0 2" Height="25" Width="80"/>
+        <Label Content="Label"/>
+        <TextBox TextWrapping="Wrap"/>
+    </UniformGrid>
+</Window>

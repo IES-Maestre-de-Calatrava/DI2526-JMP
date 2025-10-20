@@ -1,0 +1,9 @@
+﻿<Application x:Class="Controles_en_Grid_sin_filas_y_columnas.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Controles_en_Grid_sin_filas_y_columnas"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

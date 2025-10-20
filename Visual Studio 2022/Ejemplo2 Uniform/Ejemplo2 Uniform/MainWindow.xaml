@@ -1,0 +1,17 @@
+﻿<Window x:Class="Ejemplo2_Uniform.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejemplo2_Uniform"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!---Cuando no se le ponen las filas y columnas, se cuadran los espacios dependiendo de los elemntos que haya en el grid-->
+    <UniformGrid Background="Thistle">
+        <Button Content="Button 1"/>
+        <Button Content="Button 2"/>
+        <Button Content="Button 3"/>
+        <Button Content="Button 4"/>
+        <Button Content="Button 5"/>
+    </UniformGrid>
+</Window>

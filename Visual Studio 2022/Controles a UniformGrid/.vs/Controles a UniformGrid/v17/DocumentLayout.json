@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Controles a UniformGrid\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAECED9-B8BD-4A82-BA3C-DAA341A1ED06}|Controles a UniformGrid\\Controles a UniformGrid.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\controles a uniformgrid\\controles a uniformgrid\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAECED9-B8BD-4A82-BA3C-DAA341A1ED06}|Controles a UniformGrid\\Controles a UniformGrid.csproj|solutionrelative:controles a uniformgrid\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAECED9-B8BD-4A82-BA3C-DAA341A1ED06}|Controles a UniformGrid\\Controles a UniformGrid.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\controles a uniformgrid\\controles a uniformgrid\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6FAECED9-B8BD-4A82-BA3C-DAA341A1ED06}|Controles a UniformGrid\\Controles a UniformGrid.csproj|solutionrelative:controles a uniformgrid\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Controles a UniformGrid\\Controles a UniformGrid\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Controles a UniformGrid\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Controles a UniformGrid\\Controles a UniformGrid\\MainWindow.xaml",
+              "RelativeToolTip": "Controles a UniformGrid\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-19T13:31:34.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Controles a UniformGrid\\Controles a UniformGrid\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Controles a UniformGrid\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Controles a UniformGrid\\Controles a UniformGrid\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Controles a UniformGrid\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIAwwDAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T13:31:33.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

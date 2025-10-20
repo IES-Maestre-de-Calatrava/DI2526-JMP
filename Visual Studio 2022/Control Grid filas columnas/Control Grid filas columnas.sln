@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Control Grid filas columnas", "Control Grid filas columnas\Control Grid filas columnas.csproj", "{679AA9D1-2BEC-4D84-B4C3-C4BDCDF63198}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{679AA9D1-2BEC-4D84-B4C3-C4BDCDF63198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679AA9D1-2BEC-4D84-B4C3-C4BDCDF63198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679AA9D1-2BEC-4D84-B4C3-C4BDCDF63198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679AA9D1-2BEC-4D84-B4C3-C4BDCDF63198}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9347239-136F-4759-A597-A2A000E6FA98}
+	EndGlobalSection
+EndGlobal

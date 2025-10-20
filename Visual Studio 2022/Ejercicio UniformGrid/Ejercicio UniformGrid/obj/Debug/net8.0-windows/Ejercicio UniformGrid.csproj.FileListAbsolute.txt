@@ -1,0 +1,21 @@
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\bin\Debug\net8.0-windows\Ejercicio UniformGrid.exe
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\bin\Debug\net8.0-windows\Ejercicio UniformGrid.deps.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\bin\Debug\net8.0-windows\Ejercicio UniformGrid.runtimeconfig.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\bin\Debug\net8.0-windows\Ejercicio UniformGrid.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\bin\Debug\net8.0-windows\Ejercicio UniformGrid.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid_MarkupCompile.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid_MarkupCompile.lref
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid.g.resources
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid.AssemblyInfoInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid.AssemblyInfo.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid.csproj.CoreCompileInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid.sourcelink.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\refint\Ejercicio UniformGrid.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\Ejercicio UniformGrid.genruntimeconfig.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Ejercicio UniformGrid\Ejercicio UniformGrid\obj\Debug\net8.0-windows\ref\Ejercicio UniformGrid.dll

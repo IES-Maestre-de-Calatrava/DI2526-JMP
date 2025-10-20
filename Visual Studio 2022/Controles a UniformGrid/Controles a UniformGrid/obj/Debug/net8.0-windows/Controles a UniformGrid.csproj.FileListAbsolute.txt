@@ -1,0 +1,21 @@
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\bin\Debug\net8.0-windows\Controles a UniformGrid.exe
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\bin\Debug\net8.0-windows\Controles a UniformGrid.deps.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\bin\Debug\net8.0-windows\Controles a UniformGrid.runtimeconfig.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\bin\Debug\net8.0-windows\Controles a UniformGrid.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\bin\Debug\net8.0-windows\Controles a UniformGrid.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid_MarkupCompile.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid_MarkupCompile.lref
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid.g.resources
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid.AssemblyInfoInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid.AssemblyInfo.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid.csproj.CoreCompileInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid.sourcelink.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\refint\Controles a UniformGrid.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\Controles a UniformGrid.genruntimeconfig.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Controles a UniformGrid\Controles a UniformGrid\obj\Debug\net8.0-windows\ref\Controles a UniformGrid.dll
