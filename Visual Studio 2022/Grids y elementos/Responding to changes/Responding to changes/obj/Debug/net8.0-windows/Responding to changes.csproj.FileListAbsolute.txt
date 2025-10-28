@@ -1,0 +1,20 @@
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes_MarkupCompile.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes.g.resources
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes.AssemblyInfoInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes.AssemblyInfo.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes.csproj.CoreCompileInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes.sourcelink.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\bin\Debug\net8.0-windows\Responding to changes.exe
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\bin\Debug\net8.0-windows\Responding to changes.deps.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\bin\Debug\net8.0-windows\Responding to changes.runtimeconfig.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\bin\Debug\net8.0-windows\Responding to changes.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\bin\Debug\net8.0-windows\Responding to changes.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\refint\Responding to changes.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\Responding to changes.genruntimeconfig.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Responding to changes\Responding to changes\obj\Debug\net8.0-windows\ref\Responding to changes.dll
