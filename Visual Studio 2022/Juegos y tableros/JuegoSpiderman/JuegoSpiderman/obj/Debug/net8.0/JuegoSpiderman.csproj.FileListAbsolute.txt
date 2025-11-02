@@ -12,3 +12,18 @@ C:\Users\Javier\Documents\Visual Studio 2022\JuegoSpiderman\JuegoSpiderman\obj\D
 C:\Users\Javier\Documents\Visual Studio 2022\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.pdb
 C:\Users\Javier\Documents\Visual Studio 2022\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.genruntimeconfig.cache
 C:\Users\Javier\Documents\Visual Studio 2022\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\ref\JuegoSpiderman.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\bin\Debug\net8.0\JuegoSpiderman.exe
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\bin\Debug\net8.0\JuegoSpiderman.deps.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\bin\Debug\net8.0\JuegoSpiderman.runtimeconfig.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\bin\Debug\net8.0\JuegoSpiderman.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\bin\Debug\net8.0\JuegoSpiderman.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.AssemblyInfoInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.AssemblyInfo.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.csproj.CoreCompileInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.sourcelink.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\refint\JuegoSpiderman.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.genruntimeconfig.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\ref\JuegoSpiderman.dll

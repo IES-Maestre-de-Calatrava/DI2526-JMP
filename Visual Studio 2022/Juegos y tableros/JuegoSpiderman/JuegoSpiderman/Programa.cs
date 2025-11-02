@@ -17,7 +17,7 @@ namespace JuegoSpiderman
             int posY = 0;
 
             // relleno el tablero visible con "X"
-            tableroVisible.RellenarTableroVisible('#');
+            tableroVisible.RellenarTableroVisible('.');
 
             // relleno el tablero NO visible con las letras de los enemigos aleatorios
             tableroEnemigos.RellenarTableroEnemigos();

@@ -1,0 +1,15 @@
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\bin\Debug\net8.0\juego.exe
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\bin\Debug\net8.0\juego.deps.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\bin\Debug\net8.0\juego.runtimeconfig.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\bin\Debug\net8.0\juego.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\bin\Debug\net8.0\juego.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\juego.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\juego.AssemblyInfoInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\juego.AssemblyInfo.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\juego.csproj.CoreCompileInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\juego.sourcelink.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\juego.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\refint\juego.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\juego.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\juego.genruntimeconfig.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Juegos y tableros\juego\juego\obj\Debug\net8.0\ref\juego.dll

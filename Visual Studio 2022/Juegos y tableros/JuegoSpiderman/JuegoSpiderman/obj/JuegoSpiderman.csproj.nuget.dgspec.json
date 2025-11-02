@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {}
+    "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {
+    "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
+        "projectUniqueName": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
         "projectName": "JuegoSpiderman",
-        "projectPath": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
+        "projectPath": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
         "packagesPath": "C:\\Users\\Javier\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\obj\\",
+        "outputPath": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Javier\\AppData\\Roaming\\NuGet\\NuGet.Config",

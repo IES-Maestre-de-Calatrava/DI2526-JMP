@@ -1,42 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\",
+  "WorkspaceRootPath": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\visual studio 2022\\juegospiderman\\juegospiderman\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\visual studio 2022\\juegospiderman\\juegospiderman\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\visual studio 2022\\juegospiderman\\juegospiderman\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\visual studio 2022\\juegospiderman\\juegospiderman\\spiderman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\juegos y tableros\\juegospiderman\\juegospiderman\\spiderman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\spiderman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\visual studio 2022\\juegospiderman\\juegospiderman\\entidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\entidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\juegos y tableros\\juegospiderman\\juegospiderman\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\visual studio 2022\\juegospiderman\\juegospiderman\\civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\juegos y tableros\\juegospiderman\\juegospiderman\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\visual studio 2022\\juegospiderman\\juegospiderman\\doctor_octopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\juegos y tableros\\juegospiderman\\juegospiderman\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\juegos y tableros\\juegospiderman\\juegospiderman\\doctor_octopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\doctor_octopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\visual studio 2022\\juegospiderman\\juegospiderman\\duende_verde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\juegos y tableros\\juegospiderman\\juegospiderman\\mysterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\mysterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\juegos y tableros\\juegospiderman\\juegospiderman\\duende_verde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\duende_verde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\visual studio 2022\\juegospiderman\\juegospiderman\\mysterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\mysterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\juegos y tableros\\juegospiderman\\juegospiderman\\civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\juegos y tableros\\juegospiderman\\juegospiderman\\entidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2A3113-0383-422B-BE8E-A80030CA15A3}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\entidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,95 +46,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Bonus.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Bonus.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Bonus.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Bonus.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Bonus.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Bonus.cs",
               "RelativeToolTip": "JuegoSpiderman\\Bonus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwAwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T17:47:23.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Mysterio.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Mysterio.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Mysterio.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Mysterio.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Mysterio.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Mysterio.cs",
               "RelativeToolTip": "JuegoSpiderman\\Mysterio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:45:19.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Duende_Verde.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Duende_Verde.cs",
-              "RelativeDocumentMoniker": "JuegoSpiderman\\Duende_Verde.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Duende_Verde.cs",
-              "RelativeToolTip": "JuegoSpiderman\\Duende_Verde.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:23:01.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:45:19.297Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Duende_Verde.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Duende_Verde.cs",
+              "RelativeDocumentMoniker": "JuegoSpiderman\\Duende_Verde.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Duende_Verde.cs",
+              "RelativeToolTip": "JuegoSpiderman\\Duende_Verde.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:23:01.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Doctor_Octopus.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Doctor_Octopus.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Doctor_Octopus.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Doctor_Octopus.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Doctor_Octopus.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Doctor_Octopus.cs",
               "RelativeToolTip": "JuegoSpiderman\\Doctor_Octopus.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T16:37:50.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Civil.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Civil.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Civil.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Civil.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Civil.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Civil.cs",
               "RelativeToolTip": "JuegoSpiderman\\Civil.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwBUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T16:37:36.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T16:37:36.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Entidad.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Entidad.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Entidad.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Entidad.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Entidad.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Entidad.cs",
               "RelativeToolTip": "JuegoSpiderman\\Entidad.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T09:21:27.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T09:21:27.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Spiderman.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Spiderman.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Spiderman.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Spiderman.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Spiderman.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Spiderman.cs",
               "RelativeToolTip": "JuegoSpiderman\\Spiderman.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T09:04:46.079Z",
               "EditorCaption": ""
@@ -143,24 +139,24 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Programa.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Programa.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Programa.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Programa.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Programa.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Programa.cs",
               "RelativeToolTip": "JuegoSpiderman\\Programa.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T08:54:20.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Ciudad.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Ciudad.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Ciudad.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Ciudad.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\Visual Studio 2022\\JuegoSpiderman\\JuegoSpiderman\\Ciudad.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Juegos y tableros\\JuegoSpiderman\\JuegoSpiderman\\Ciudad.cs",
               "RelativeToolTip": "JuegoSpiderman\\Ciudad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T08:43:32.801Z",
               "EditorCaption": ""
