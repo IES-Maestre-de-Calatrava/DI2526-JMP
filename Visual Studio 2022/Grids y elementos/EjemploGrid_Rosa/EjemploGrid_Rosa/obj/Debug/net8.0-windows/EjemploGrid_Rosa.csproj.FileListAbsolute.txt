@@ -3,11 +3,9 @@ C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Eje
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\bin\Debug\net8.0-windows\EjemploGrid_Rosa.runtimeconfig.json
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\bin\Debug\net8.0-windows\EjemploGrid_Rosa.dll
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\bin\Debug\net8.0-windows\EjemploGrid_Rosa.pdb
-C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\EjemploGrid_Rosa_MarkupCompile.cache
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\EjemploGrid_Rosa_MarkupCompile.lref
-C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\EjemploGrid_Rosa.g.resources
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\EjemploGrid_Rosa.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\EjemploGrid_Rosa.AssemblyInfoInputs.cache
@@ -19,3 +17,5 @@ C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Eje
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\EjemploGrid_Rosa.pdb
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\EjemploGrid_Rosa.genruntimeconfig.cache
 C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\ref\EjemploGrid_Rosa.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\view\MainWindow.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\EjemploGrid_Rosa\EjemploGrid_Rosa\obj\Debug\net8.0-windows\view\MainWindow.baml

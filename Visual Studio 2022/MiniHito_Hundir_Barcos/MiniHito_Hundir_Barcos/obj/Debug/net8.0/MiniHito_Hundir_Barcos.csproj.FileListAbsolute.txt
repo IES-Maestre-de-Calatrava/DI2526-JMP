@@ -1,0 +1,14 @@
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\bin\Debug\net8.0\MiniHito_Hundir_Barcos.exe
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\bin\Debug\net8.0\MiniHito_Hundir_Barcos.deps.json
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\bin\Debug\net8.0\MiniHito_Hundir_Barcos.runtimeconfig.json
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\bin\Debug\net8.0\MiniHito_Hundir_Barcos.dll
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\bin\Debug\net8.0\MiniHito_Hundir_Barcos.pdb
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\obj\Debug\net8.0\MiniHito_Hundir_Barcos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\obj\Debug\net8.0\MiniHito_Hundir_Barcos.AssemblyInfoInputs.cache
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\obj\Debug\net8.0\MiniHito_Hundir_Barcos.AssemblyInfo.cs
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\obj\Debug\net8.0\MiniHito_Hundir_Barcos.csproj.CoreCompileInputs.cache
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\obj\Debug\net8.0\MiniHito_Hundir_Barcos.dll
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\obj\Debug\net8.0\refint\MiniHito_Hundir_Barcos.dll
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\obj\Debug\net8.0\MiniHito_Hundir_Barcos.pdb
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\obj\Debug\net8.0\MiniHito_Hundir_Barcos.genruntimeconfig.cache
+C:\Users\Javier\Desktop\MiniHito_Hundir_Barcos\MiniHito_Hundir_Barcos\obj\Debug\net8.0\ref\MiniHito_Hundir_Barcos.dll
