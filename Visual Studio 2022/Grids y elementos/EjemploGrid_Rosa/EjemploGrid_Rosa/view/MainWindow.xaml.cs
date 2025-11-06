@@ -50,7 +50,15 @@ namespace EjemploGrid_Rosa
 
         private void dgvPersonas_SelectionChange(object sender, SelectionChangedEventArgs e)
         {
-            // txtNombre.Text = "Ha cambiado la seleccion";
+            if (dgvPersonas.SelectedItem != null)
+            {
+                Persona persona = (Persona)dgvPersonas.SelectedItem;
+                txtNombre.Text = persona.Nombre;
+                txtApellido.Text = persona.Apellidos;
+                txtEdad.Text = persona.Edad.ToString();
+            }
+
+            
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
@@ -69,14 +77,22 @@ namespace EjemploGrid_Rosa
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
+            
             Persona personaSeleccionada = (Persona)dgvPersonas.SelectedItem;
             personaSeleccionada.Nombre = txtNombre.Text;
             personaSeleccionada.Apellidos = txtApellido.Text;
             personaSeleccionada.Edad = int.Parse(txtEdad.Text);
 
-            lstPersonas.Remove((Persona)dgvPersonas.SelectedItem);
-            lstPersonas.Add(personaSeleccionada);
             dgvPersonas.Items.Refresh();
+
+            /* Esto lo hago guardandome la posicion del objeto seleccionado y eliminandolo para insertar uno nuevo en esa posicion, pero no es necesario
+            Persona persona = (Persona)dgvPersonas.SelectedItem;
+            List<Persona> lst =(List<Persona>)dgvPersonas.ItemsSource;
+            int posicion = lst.IndexOf(persona);
+            lst.Remove(persona);
+            lst.Insert(posicion, new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text)));
+            dgvPersonas.Items.Refresh();
+            */
 
             start();
         }
