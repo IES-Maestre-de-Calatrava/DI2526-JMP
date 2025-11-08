@@ -10,6 +10,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EjemploGrid_Rosa.domain;
+using System.Collections.ObjectModel;
 
 namespace EjemploGrid_Rosa
 {
@@ -29,9 +30,7 @@ namespace EjemploGrid_Rosa
             //1º Intstanciamos la Persona y la inicializamos, para ello hemos creado un constructor vacio
             Persona persona = new Persona();
             
-            // 2º Llamamos al metodo getPersonas, de la clase Persona< que a su vez llama al metodo leerPersonas de la clase PersonasPersistence
             lstPersonas = persona.getPersonas();
-
 
             // 3º Sincronizamos la lista con el DataGridView
             dgvPersonas.ItemsSource = lstPersonas;
@@ -50,27 +49,32 @@ namespace EjemploGrid_Rosa
 
         private void dgvPersonas_SelectionChange(object sender, SelectionChangedEventArgs e)
         {
-            if (dgvPersonas.SelectedItem != null)
-            {
-                Persona persona = (Persona)dgvPersonas.SelectedItem;
-                txtNombre.Text = persona.Nombre;
-                txtApellido.Text = persona.Apellidos;
-                txtEdad.Text = persona.Edad.ToString();
-            }
+          
 
-            
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
+            if (btnUpdate.IsEnabled == false)
+            { 
 
-            String nombre = txtNombre.Text;
-            String apellido = txtApellido.Text;
-            int edad = int.Parse(txtEdad.Text);
-            Persona persona = new Persona(nombre, apellido, edad);
+                // Añadimos la persona con los datos actualizados
+                String nombre = txtNombre.Text;
+                String apellido = txtApellido.Text;
+                int edad = int.Parse(txtEdad.Text);
+                Persona persona = new Persona(nombre, apellido, edad);
 
-            lstPersonas.Add(persona);
-            dgvPersonas.Items.Refresh();
+                lstPersonas.Add(persona);
+            }
+            else
+            {
+                String nombre = txtNombre.Text;
+                String apellido = txtApellido.Text;
+                int edad = int.Parse(txtEdad.Text);
+                Persona persona = new Persona(nombre, apellido, edad);
+
+                lstPersonas.Add(persona);
+            }
 
             start();
         }
@@ -81,9 +85,18 @@ namespace EjemploGrid_Rosa
             Persona personaSeleccionada = (Persona)dgvPersonas.SelectedItem;
             personaSeleccionada.Nombre = txtNombre.Text;
             personaSeleccionada.Apellidos = txtApellido.Text;
-            personaSeleccionada.Edad = int.Parse(txtEdad.Text);
+            txtEdad.Text = personaSeleccionada.Edad.ToString();
 
-            dgvPersonas.Items.Refresh();
+            btnUpdate.IsEnabled = false;
+            btnDelete.IsEnabled = false;
+            btnAdd.Content = "Actualizar datos";
+
+
+            start();
+
+
+
+
 
             /* Esto lo hago guardandome la posicion del objeto seleccionado y eliminandolo para insertar uno nuevo en esa posicion, pero no es necesario
             Persona persona = (Persona)dgvPersonas.SelectedItem;
@@ -94,14 +107,12 @@ namespace EjemploGrid_Rosa
             dgvPersonas.Items.Refresh();
             */
 
-            start();
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
             // Eliminamos de la lista aquel registro Seleccionado de dataGridView
             lstPersonas.Remove((Persona)dgvPersonas.SelectedItem);
-            dgvPersonas.Items.Refresh();
             start();
         }
     }

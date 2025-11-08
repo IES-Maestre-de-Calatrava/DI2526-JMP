@@ -1,9 +1,12 @@
 ﻿using EjemploGrid_Rosa.persistence;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace EjemploGrid_Rosa.domain
 {
@@ -13,6 +16,7 @@ namespace EjemploGrid_Rosa.domain
         private String apellidos;
         private int edad;
         private List<Persona> listaPersonas;
+
         public Persona(string nombre, string apellidos, int edad)
         {
             this.nombre = nombre;
@@ -26,11 +30,11 @@ namespace EjemploGrid_Rosa.domain
             listaPersonas = new List<Persona>();
         }
 
-        public string Nombre { get => nombre; set => nombre = value; }
-        public string Apellidos { get => apellidos; set => apellidos = value; }
+        public String Nombre { get => nombre; set => nombre = value; }
+        public String Apellidos { get => apellidos; set => apellidos = value; }
         public int Edad { get => edad; set => edad = value; }
 
-
+       
         // NOS DEVUELVE LA LISTA DE PERSONAS DESDE LA BASE DE DATOS (SIMULACION)
         public List<Persona> getPersonas()
         {
