@@ -6,16 +6,29 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media.TextFormatting;
 
 
 namespace EjemploGrid_Rosa.domain
 {
     class Persona
     {
+        private int id;
         private String nombre;
         private String apellidos;
         private int edad;
+
         private List<Persona> listaPersonas;
+        public PersonaPersistence pm = new PersonaPersistence();
+        int Id_;
+
+        public Persona(int id, string nombre, string apellidos, int edad)
+        {
+            this.id = id;
+            this.nombre = nombre;
+            this.apellidos = apellidos;
+            this.edad = edad;
+        }
 
         public Persona(string nombre, string apellidos, int edad)
         {
@@ -24,22 +37,48 @@ namespace EjemploGrid_Rosa.domain
             this.edad = edad;
         }
 
-        // CREAMOS UN CONSTRUCTOR VACIO PARA PODER LLAMAR A LA LISTA DE PERSISTENCIA
+
         public Persona()
         {
-            listaPersonas = new List<Persona>();
+            pm = new PersonaPersistence();
         }
 
+        public Persona(int id)
+        {
+            Id_ = id;
+            pm = new PersonaPersistence();
+        }
+
+        public List<Persona> getListaPersonas()
+        {
+            listaPersonas = PersonaPersistence.LeerPersonas();
+            return listaPersonas;
+        }
+
+
+
+
+        public int Id { get => id; set => id = value; }
         public String Nombre { get => nombre; set => nombre = value; }
         public String Apellidos { get => apellidos; set => apellidos = value; }
         public int Edad { get => edad; set => edad = value; }
 
        
-        // NOS DEVUELVE LA LISTA DE PERSONAS DESDE LA BASE DE DATOS (SIMULACION)
-        public List<Persona> getPersonas()
+
+        public void insertar()
         {
-            listaPersonas = PersonaPersistence.LeerPersonas();
-            return listaPersonas;
+            pm.Insert(this);
         }
+
+        public void borrar()
+        {
+            pm.Delete(this);
+        }
+
+        public void actualizar()
+        {
+            pm.Update(this);
+        }
+
     }
 }

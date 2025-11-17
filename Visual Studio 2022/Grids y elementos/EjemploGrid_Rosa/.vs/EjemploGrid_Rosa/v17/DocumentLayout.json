@@ -3,30 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Javier\\AppData\\Local\\Temp\\.vsdbgsrc\\b196244a9eb8a293ae31ff5a9b1bf3f20eb84a4aae59a9b230da3db8f694558d\\ItemContainerGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\ejemplogrid_rosa\\ejemplogrid_rosa\\persistence\\manage\\personapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|solutionrelative:ejemplogrid_rosa\\persistence\\manage\\personapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\ejemplogrid_rosa\\ejemplogrid_rosa\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|solutionrelative:ejemplogrid_rosa\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\ejemplogrid_rosa\\ejemplogrid_rosa\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|solutionrelative:ejemplogrid_rosa\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\ejemplogrid_rosa\\ejemplogrid_rosa\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|solutionrelative:ejemplogrid_rosa\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\ejemplogrid_rosa\\ejemplogrid_rosa\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|solutionrelative:ejemplogrid_rosa\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\ejemplogrid_rosa\\ejemplogrid_rosa\\persistence\\personapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|solutionrelative:ejemplogrid_rosa\\persistence\\personapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\ejemplogrid_rosa\\ejemplogrid_rosa\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|solutionrelative:ejemplogrid_rosa\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\ejemplogrid_rosa\\ejemplogrid_rosa\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F52ED224-5E9E-4B53-9FAC-77E00DB598D3}|EjemploGrid_Rosa\\EjemploGrid_Rosa.csproj|solutionrelative:ejemplogrid_rosa\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Javier\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,58 +34,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ItemContainerGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\AppData\\Local\\Temp\\.vsdbgsrc\\b196244a9eb8a293ae31ff5a9b1bf3f20eb84a4aae59a9b230da3db8f694558d\\ItemContainerGenerator.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b196244a9eb8a293ae31ff5a9b1bf3f20eb84a4aae59a9b230da3db8f694558d\\ItemContainerGenerator.cs",
-              "ToolTip": "C:\\Users\\Javier\\AppData\\Local\\Temp\\.vsdbgsrc\\b196244a9eb8a293ae31ff5a9b1bf3f20eb84a4aae59a9b230da3db8f694558d\\ItemContainerGenerator.cs [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b196244a9eb8a293ae31ff5a9b1bf3f20eb84a4aae59a9b230da3db8f694558d\\ItemContainerGenerator.cs [Solo lectura]",
-              "ViewState": "AgIAAN0FAAAAAAAAAAAkwO0FAAACAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T12:03:04.607Z",
-              "EditorCaption": " [Solo lectura]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "EjemploGrid_Rosa\\persistence\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "EjemploGrid_Rosa\\persistence\\DBBroker.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T12:09:16.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "EjemploGrid_Rosa\\view\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "EjemploGrid_Rosa\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAowFgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAswL8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T08:48:00.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "EjemploGrid_Rosa\\view\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\view\\MainWindow.xaml",
               "RelativeToolTip": "EjemploGrid_Rosa\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-04T08:43:41.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResourcePart.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "ToolTip": "C:\\Users\\Javier\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Solo lectura]",
-              "ViewState": "AgIAABoAAAAAAAAAAAAcwCcAAAAEAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T08:26:20.646Z",
-              "EditorCaption": " [Solo lectura]"
+              "WhenOpened": "2025-11-04T08:43:41.538Z"
             },
             {
               "$type": "Document",
@@ -98,8 +86,7 @@
               "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\App.xaml",
               "RelativeToolTip": "EjemploGrid_Rosa\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-04T07:59:10.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T07:59:10.045Z"
             },
             {
               "$type": "Document",
@@ -109,20 +96,20 @@
               "RelativeDocumentMoniker": "EjemploGrid_Rosa\\domain\\Persona.cs",
               "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\domain\\Persona.cs",
               "RelativeToolTip": "EjemploGrid_Rosa\\domain\\Persona.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCIAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T08:01:09.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "PersonaPersistence.cs",
-              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\persistence\\PersonaPersistence.cs",
-              "RelativeDocumentMoniker": "EjemploGrid_Rosa\\persistence\\PersonaPersistence.cs",
-              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\persistence\\PersonaPersistence.cs",
-              "RelativeToolTip": "EjemploGrid_Rosa\\persistence\\PersonaPersistence.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAhAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\persistence\\manage\\PersonaPersistence.cs",
+              "RelativeDocumentMoniker": "EjemploGrid_Rosa\\persistence\\manage\\PersonaPersistence.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\EjemploGrid_Rosa\\EjemploGrid_Rosa\\persistence\\manage\\PersonaPersistence.cs",
+              "RelativeToolTip": "EjemploGrid_Rosa\\persistence\\manage\\PersonaPersistence.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T08:04:46.214Z",
               "EditorCaption": ""

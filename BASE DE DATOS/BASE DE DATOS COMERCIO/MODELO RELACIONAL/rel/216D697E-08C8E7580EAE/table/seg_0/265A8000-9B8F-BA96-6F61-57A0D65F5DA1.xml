@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="265A8000-9B8F-BA96-6F61-57A0D65F5DA1" name="DETALLES_PRODUCTO">
+<createdBy>Javier</createdBy>
+<createdTime>2025-11-11 09:31:00 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPRESA" id="5163A7BC-C046-38EA-C4A1-F6112434C668">
+<createdBy>Javier</createdBy>
+<createdTime>2025-11-11 09:32:14 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6472701-4843-AA8F-EB28-1F147CCF9D5B" referredColumn="A3FCDE62-0ADE-908A-E987-67D269D019FA"/>
+</associations>
+</Column>
+<Column name="EXPORTACION" id="6B8E2764-E89C-9C2F-BB1D-DDB17E90048D">
+<createdBy>Javier</createdBy>
+<createdTime>2025-11-11 09:32:47 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPORTACION" id="53BA4E26-936C-22B3-7E99-D4E829434FCD">
+<createdBy>Javier</createdBy>
+<createdTime>2025-11-11 09:33:06 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTO" id="71B76DE4-D899-CFE7-AF55-11058790E837">
+<createdBy>Javier</createdBy>
+<createdTime>2025-11-11 09:33:24 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTAS" id="8E44A028-1FE1-5519-6EA1-938BDE0B3A29">
+<createdBy>Javier</createdBy>
+<createdTime>2025-11-11 09:34:01 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCURSAL" id="86A4200C-03CB-7F26-A2EC-A0D5F33D16EE">
+<createdBy>Javier</createdBy>
+<createdTime>2025-11-11 09:34:26 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B7F2401-63EA-8790-81BD-685F2192E86C" name="DETALLES_EMPRESA_PK">
+<createdBy>Javier</createdBy>
+<createdTime>2025-11-11 09:32:14 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5163A7BC-C046-38EA-C4A1-F6112434C668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17512E4A-9F3C-E2E2-0EB6-74D0E7AF43D7" name="DETALLES_EMPRESA_EMPRESA_FKv1">
+<createdBy>Javier</createdBy>
+<createdTime>2025-11-11 09:35:44 UTC</createdTime>
+<ownerDesignName>MODELO RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5163A7BC-C046-38EA-C4A1-F6112434C668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

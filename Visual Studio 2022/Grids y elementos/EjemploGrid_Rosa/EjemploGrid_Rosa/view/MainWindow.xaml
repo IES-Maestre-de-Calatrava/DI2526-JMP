@@ -46,7 +46,45 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Ejercicio2">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="2.5*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <ComboBox x:Name="cbFiltro" VerticalAlignment="Top" Margin="10,10,570,0">
+                            <ComboBoxItem x:Name="ciFiltroNombre" Content="Filtrar por Nombre"/>
+                            <ComboBoxItem x:Name="ciFiltroApellido" Content="Filtrar por Apellido"/>
+                            <ComboBoxItem  x:Name="ciFiltroEdad" Content="Filtrar por Edad"/>
+                        </ComboBox>
+                        <TextBox x:Name="txtFiltro" Margin="178,7,489,61" Height="27" TextChanged="txtFiltro_TextChanged"/>
+
+
+                        <ComboBox x:Name="cbOrden" VerticalAlignment="Top" Margin="10,47,570,0">
+                            <ComboBoxItem x:Name="ciOrdenNombre" Content="Name"/>
+                            <ComboBoxItem x:Name="ciOrdenApellido" Content="Surname"/>
+                            <ComboBoxItem  x:Name="ciOrdenEdad" Content="Age"/>
+                        </ComboBox>
+                        <Button x:Name="Sort" Content="SORT" Margin="178,44,462,24" Height="27" Click="Sort_Click"/>
+
+
+                        <ComboBox Name="cbFiltroEdad" Margin="259,7,239,61" Height="27" SelectionChanged="cbFiltroEdad_SelectionChanged">
+                            <ComboBoxItem x:Name="ciOlderThan" Content="Older than the entered age"/>
+                            <ComboBoxItem x:Name="ciYoungerThan" Content="Younger than the entered age"/>
+                            <ComboBoxItem x:Name="ciExactly" Content="Exactly that age"/>
+                        </ComboBox>
+
+                        <Button x:Name="btnMaximo" Content="Edad Máxima" Margin="0,47,21,21" Height="27" Width="100" HorizontalAlignment="Right" Click="BtnMaximo_Click"/> 
+                        <Button x:Name="btnMostrarTodos" Content="Mostrar Todos" Margin="0,10,21,58" Height="27" Width="100" HorizontalAlignment="Right" Click="BtnMostrarTodos_Click"/>
+                    </Grid>
+
+                    <Grid Grid.Row="1">
+                        <DataGrid x:Name="dgvPersonasEdad" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="20"/>
+                    </Grid>
+
+                </Grid>
+
             </TabItem>
         </TabControl>
     </Grid>
