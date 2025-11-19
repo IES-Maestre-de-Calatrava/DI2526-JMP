@@ -1,0 +1,21 @@
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\bin\Debug\net8.0-windows\Mi Panel.exe
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\bin\Debug\net8.0-windows\Mi Panel.deps.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\bin\Debug\net8.0-windows\Mi Panel.runtimeconfig.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\bin\Debug\net8.0-windows\Mi Panel.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\bin\Debug\net8.0-windows\Mi Panel.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel_MarkupCompile.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel_MarkupCompile.lref
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel.g.resources
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel.AssemblyInfoInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel.AssemblyInfo.cs
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel.csproj.CoreCompileInputs.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel.sourcelink.json
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\refint\Mi Panel.dll
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel.pdb
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\Mi Panel.genruntimeconfig.cache
+C:\Users\Javier\Documents\DI\DI2526-JMP\Visual Studio 2022\Grids y elementos\Mi Panel\Mi Panel\obj\Debug\net8.0-windows\ref\Mi Panel.dll

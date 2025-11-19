@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\Mi Panel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D19171A9-FFDC-4025-ABE0-DFD407FEF6C4}|Mi Panel\\Mi Panel.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\mi panel\\mi panel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D19171A9-FFDC-4025-ABE0-DFD407FEF6C4}|Mi Panel\\Mi Panel.csproj|solutionrelative:mi panel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D19171A9-FFDC-4025-ABE0-DFD407FEF6C4}|Mi Panel\\Mi Panel.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\mi panel\\mi panel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D19171A9-FFDC-4025-ABE0-DFD407FEF6C4}|Mi Panel\\Mi Panel.csproj|solutionrelative:mi panel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +18,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\Mi Panel\\Mi Panel\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Mi Panel\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\Mi Panel\\Mi Panel\\MainWindow.xaml*",
+              "RelativeToolTip": "Mi Panel\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T07:46:26.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\Mi Panel\\Mi Panel\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Mi Panel\\MainWindow.xaml.cs",
@@ -26,8 +46,7 @@
               "RelativeToolTip": "Mi Panel\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T07:46:24.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T07:46:24.202Z"
             }
           ]
         }

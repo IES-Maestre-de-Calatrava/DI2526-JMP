@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mi Panel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a73236a106864c472130dbabfe423b592d25fbd9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa7ce2f6f531030f33e67c32b46c86600206cd7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mi Panel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mi Panel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

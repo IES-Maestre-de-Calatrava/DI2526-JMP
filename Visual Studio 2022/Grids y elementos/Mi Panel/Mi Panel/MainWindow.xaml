@@ -12,33 +12,32 @@
 
         <StackPanel DockPanel.Dock="Left" 
                 Orientation="Vertical" 
-                Width="100" 
-                Background="DarkBlue">
+                Width="100" >
 
-            <Image Source="imagen.png" 
-               Width="70" 
-               Height="70" 
-               Margin="10"/>
-
-            <Button Content="Home" 
-                Margin="10" 
-                Background="Aquamarine" 
-                Foreground="White"/>
-
-            <Label Content="Dashboard" 
+            <Label Content="Participantes" 
                Margin="10" 
                HorizontalAlignment="Center" 
-               Foreground="White" />
+               Foreground="Black" />
 
-            <Label Content="Reports" 
+            <Label Content="Empresas" 
                Margin="10" 
                HorizontalAlignment="Center" 
-               Foreground="White"/>
+               Foreground="Black"/>
 
-            <Label Content="Settings" 
+            <Label Content="Retos" 
                Margin="10" 
                HorizontalAlignment="Center" 
-               Foreground="White"/>
+               Foreground="Black"/>
+
+            <Label Content="Talent Lab" 
+               Margin="10" 
+               HorizontalAlignment="Center" 
+               Foreground="Black"/>
+
+            <Label Content="Usuarios" 
+               Margin="10" 
+               HorizontalAlignment="Center" 
+               Foreground="Black"/>
 
         </StackPanel>
 
@@ -47,39 +46,53 @@
                LastChildFill="False" 
                Background="LightGray">
 
-            <Label Content="October 21, 2025" 
-               DockPanel.Dock="Right" 
-               Margin="5" 
-               FontWeight="Bold"/>
-
-            <Label Content="Mi Panel" 
-               DockPanel.Dock="Left" 
+            <Label Content="¿ACEPTAS EL RETO?" 
+               DockPanel.Dock="Top" 
                Margin="5" 
                FontWeight="Bold"/>
 
         </DockPanel>
 
-        <Grid Width="200" Height="200" HorizontalAlignment="Left">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+        <Grid>
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
+            <TabControl Grid.Row="1" TabStripPlacement="Top">
+                <TabItem Header="Alumnado">
+                    <Grid Background="#FFE5E5E5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2.5*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <DataGrid x:Name="dgvPersonas" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="54,59,189,24" SelectionChanged="dgvPersonas_SelectionChange"/>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button x:Name="btnAdd" Grid.Column="0" Content="Agregar" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Width="168" Background="#FFC3CAFF" BorderBrush="Black" BorderThickness="1.5" Click="btnAdd_Click"/>
+                            <Button x:Name="btnUpdate" Grid.Column="1" Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Width="168" Background="#FFC3CAFF" BorderBrush="Black" BorderThickness="1.5" Click="btnUpdate_Click"/>
+                            <Button x:Name="btnDelete" Grid.Column="2" Content="Eliminar" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Width="168" Background="#FFC3CAFF" BorderBrush="Black" BorderThickness="1.5" Click="btnDelete_Click"/>
+                        </Grid>
+                        <TextBox x:Name="Search" HorizontalAlignment="Left" Margin="54,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="358" Height="20"/>
+                        <TextBox x:Name="textbox_Nombre"  HorizontalAlignment="Left" Margin="450,93,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+                        <TextBox x:Name="textbox_Apellidos" HorizontalAlignment="Left" Margin="450,147,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                        <Label x:Name="lbNombre" Content="Nombre" HorizontalAlignment="Left" Margin="450,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.596,-0.007"/>
+                        <Label x:Name="lbApellidos" Content="Apellidos" HorizontalAlignment="Left" Margin="450,116,0,0" VerticalAlignment="Top"/>
+                        <TextBox x:Name="textbox_Curso"  HorizontalAlignment="Left" Margin="450,193,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                        <Label Content="Curso" HorizontalAlignment="Left" Margin="450,170,0,0" VerticalAlignment="Top"/>
 
-            <Button Content="Boton 1" Grid.Column ="0" Background="Purple" Height="50" Width="50"/>
-            <Button Content="Boton 2" Grid.Column ="1" Background="Purple" Height="50" Width="50"/>
-            <Button Content="Boton 3" Grid.Column ="2" Background="Purple" Height="50" Width="50"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Grupos">
 
-
-
-
+                </TabItem>
+            </TabControl>
         </Grid>
+
+
+
 
 
 
