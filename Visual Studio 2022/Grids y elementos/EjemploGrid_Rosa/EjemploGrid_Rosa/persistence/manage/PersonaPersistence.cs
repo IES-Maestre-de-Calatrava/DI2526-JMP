@@ -51,7 +51,7 @@ namespace EjemploGrid_Rosa.persistence
 
             foreach (List <Object> fila in aux)
             {
-                persona = new Persona(Convert.ToInt32(fila[0]), fila[1].ToString(), fila[2].ToString(), Convert.ToInt32(fila[3]));
+                persona = new Persona(Convert.ToInt32(fila[0]), fila[1].ToString(), fila[2].ToString(), Convert.ToInt32(fila[3]), Convert.ToDateTime(fila[4]));
                 listaPersonas.Add(persona);
                 Console.WriteLine(persona.ToString());
             }
@@ -61,8 +61,8 @@ namespace EjemploGrid_Rosa.persistence
 
         public void Insert(Persona persona)
         {
-            DBBroker.obtenerAgente().modificar("INSERT INTO mydb.persona (nombre, apellidos, edad) VALUES ('"
-            + persona.Nombre + "', '" + persona.Apellidos + "', " + persona.Edad + ");");
+            DBBroker.obtenerAgente().modificar("INSERT INTO mydb.persona (nombre, apellidos, edad, fecha_nacimiento) VALUES ('"
+            + persona.Nombre + "', '" + persona.Apellidos + "', " + persona.Edad + ", "+persona.Fecha_nacimiento+");");
 
         }
 
@@ -74,7 +74,7 @@ namespace EjemploGrid_Rosa.persistence
         public void Update(Persona persona)
         {
             DBBroker.obtenerAgente().modificar("UPDATE mydb.persona SET nombre = '" + persona.Nombre + "', apellidos = '"
-            + persona.Apellidos + "', edad = " + persona.Edad + " WHERE idpersona = " + persona.Id + ";");
+            + persona.Apellidos + "', edad = " + persona.Edad + ", fecha_nacimiento = " + persona.Fecha_nacimiento +" WHERE idpersona = " + persona.Id + ";");
         }
 
     }

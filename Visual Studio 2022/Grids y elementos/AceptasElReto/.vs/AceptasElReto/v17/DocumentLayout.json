@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|solutionrelative:aceptaselreto\\persistence\\manage\\alumnadopersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\aceptaselreto\\aceptaselreto\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|solutionrelative:aceptaselreto\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\aceptaselreto\\aceptaselreto\\domain\\alumnado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|solutionrelative:aceptaselreto\\domain\\alumnado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\aceptaselreto\\aceptaselreto\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|solutionrelative:aceptaselreto\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\aceptaselreto\\aceptaselreto\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|solutionrelative:aceptaselreto\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\aceptaselreto\\aceptaselreto\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\aceptaselreto\\aceptaselreto\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|solutionrelative:aceptaselreto\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\aceptaselreto\\aceptaselreto\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{143BA1FD-B3A0-4826-BB76-A4E43706498A}|AceptasElReto\\AceptasElReto.csproj|solutionrelative:aceptaselreto\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Javier\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -49,7 +49,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\AceptasElReto\\AceptasElReto\\App.xaml",
               "RelativeDocumentMoniker": "AceptasElReto\\App.xaml",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DBBroker.cs",
               "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\AceptasElReto\\AceptasElReto\\persistence\\DBBroker.cs",
               "RelativeDocumentMoniker": "AceptasElReto\\persistence\\DBBroker.cs",
@@ -93,7 +93,8 @@
               "RelativeToolTip": "AceptasElReto\\persistence\\DBBroker.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowDYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T08:53:40.245Z"
+              "WhenOpened": "2025-11-18T08:53:40.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,27 +104,27 @@
               "RelativeDocumentMoniker": "AceptasElReto\\persistence\\manage\\AlumnadoPersistence.cs",
               "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\AceptasElReto\\AceptasElReto\\persistence\\manage\\AlumnadoPersistence.cs",
               "RelativeToolTip": "AceptasElReto\\persistence\\manage\\AlumnadoPersistence.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAD4vyEAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwCMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T08:47:48.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Alumnado.cs",
               "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\AceptasElReto\\AceptasElReto\\domain\\Alumnado.cs",
               "RelativeDocumentMoniker": "AceptasElReto\\domain\\Alumnado.cs",
               "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\AceptasElReto\\AceptasElReto\\domain\\Alumnado.cs",
               "RelativeToolTip": "AceptasElReto\\domain\\Alumnado.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T08:41:10.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\AceptasElReto\\AceptasElReto\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "AceptasElReto\\view\\MainWindow.xaml",
@@ -134,13 +135,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\AceptasElReto\\AceptasElReto\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "AceptasElReto\\view\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\AceptasElReto\\AceptasElReto\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "AceptasElReto\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAcwHYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T08:06:00.789Z",
               "EditorCaption": ""

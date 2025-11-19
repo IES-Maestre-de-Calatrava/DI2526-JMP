@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\DatePicker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27AE8463-9F41-4E48-9503-2086729971B2}|DatePicker\\DatePicker.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\datepicker\\datepicker\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27AE8463-9F41-4E48-9503-2086729971B2}|DatePicker\\DatePicker.csproj|solutionrelative:datepicker\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27AE8463-9F41-4E48-9503-2086729971B2}|DatePicker\\DatePicker.csproj|c:\\users\\javier\\documents\\di\\di2526-jmp\\visual studio 2022\\grids y elementos\\datepicker\\datepicker\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27AE8463-9F41-4E48-9503-2086729971B2}|DatePicker\\DatePicker.csproj|solutionrelative:datepicker\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\DatePicker\\DatePicker\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DatePicker\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\DatePicker\\DatePicker\\MainWindow.xaml",
+              "RelativeToolTip": "DatePicker\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T12:20:28.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\DatePicker\\DatePicker\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DatePicker\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Javier\\Documents\\DI\\DI2526-JMP\\Visual Studio 2022\\Grids y elementos\\DatePicker\\DatePicker\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DatePicker\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:20:25.531Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

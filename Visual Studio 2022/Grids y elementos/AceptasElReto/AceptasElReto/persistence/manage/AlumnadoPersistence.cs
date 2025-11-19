@@ -6,6 +6,7 @@ using System.Linq;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using Org.BouncyCastle.Crypto.Engines;
 
 namespace AceptasElReto
@@ -32,6 +33,7 @@ namespace AceptasElReto
             foreach (List <Object> fila in aux)
             {
                 persona = new Alumnado(Convert.ToInt32(fila[0]), fila[1].ToString(), fila[2].ToString(), Convert.ToInt32(fila[3]), Convert.ToInt32(fila[4]));
+                
                 listaPersonas.Add(persona);
                 Console.WriteLine(persona.ToString());
             }

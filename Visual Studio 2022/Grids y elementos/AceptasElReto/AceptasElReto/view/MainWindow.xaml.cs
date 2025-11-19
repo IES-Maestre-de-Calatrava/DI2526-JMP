@@ -105,7 +105,7 @@ namespace AceptasElReto
                 String nombre = txtNombre.Text;
                 String apellido = txtApellido.Text;
 
-                Alumnado persona = new Alumnado(nombre, apellido, curso);
+                Alumnado persona = new Alumnado(nombre, apellido,1, curso);
                 persona.insertar();
 
                 lstPersonas.Add(persona);

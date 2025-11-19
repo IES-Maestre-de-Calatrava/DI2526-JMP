@@ -17,17 +17,19 @@ namespace EjemploGrid_Rosa.domain
         private String nombre;
         private String apellidos;
         private int edad;
+        private DateTime fecha_nacimiento;
 
         private List<Persona> listaPersonas;
         public PersonaPersistence pm = new PersonaPersistence();
         int Id_;
 
-        public Persona(int id, string nombre, string apellidos, int edad)
+        public Persona(int id, string nombre, string apellidos, int edad, DateTime fecha_nacimiento)
         {
             this.id = id;
             this.nombre = nombre;
             this.apellidos = apellidos;
             this.edad = edad;
+            this.fecha_nacimiento = fecha_nacimiento;
         }
 
         public Persona(string nombre, string apellidos, int edad)
@@ -63,7 +65,9 @@ namespace EjemploGrid_Rosa.domain
         public String Apellidos { get => apellidos; set => apellidos = value; }
         public int Edad { get => edad; set => edad = value; }
 
-       
+        public DateTime Fecha_nacimiento { get => fecha_nacimiento; set => fecha_nacimiento = value; }
+
+
 
         public void insertar()
         {

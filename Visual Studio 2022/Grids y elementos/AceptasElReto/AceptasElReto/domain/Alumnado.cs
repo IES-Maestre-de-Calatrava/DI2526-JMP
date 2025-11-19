@@ -35,7 +35,7 @@ namespace AceptasElReto
         {
             this.nombre = nombre;
             this.apellidos = apellidos;
-            this.especialidad = 1;
+            this.especialidad = especialidad;
             this.grupo = curso;
         }
 

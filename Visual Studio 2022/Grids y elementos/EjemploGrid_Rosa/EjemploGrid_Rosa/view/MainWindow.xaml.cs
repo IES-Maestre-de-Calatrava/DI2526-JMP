@@ -97,7 +97,8 @@ namespace EjemploGrid_Rosa
 
             if(string.IsNullOrWhiteSpace(txtNombre.Text) || 
                 string.IsNullOrWhiteSpace(txtApellido.Text) || 
-                string.IsNullOrWhiteSpace(txtEdad.Text))
+                string.IsNullOrWhiteSpace(txtEdad.Text) ||
+                string.IsNullOrWhiteSpace(dpFecha)
             {
                 MessageBox.Show("Por favor, rellene todos los campos.");
                 return;
@@ -110,8 +111,9 @@ namespace EjemploGrid_Rosa
                 // Añadimos la persona con los datos actualizados
                     String nombre = txtNombre.Text;
                     String apellido = txtApellido.Text;
-                    
-                    Persona persona = new Persona(nombre, apellido, edad);
+                    DateTime fechaNacimiento = dpFecha.SelectedDate.HasValue ? dpFecha.SelectedDate.Value : DateTime.Now;
+
+                    Persona persona = new Persona(nombre, apellido, edad, fecha_nacimiento);
                     persona.insertar();
 
                     lstPersonas.Add(persona);
@@ -132,7 +134,8 @@ namespace EjemploGrid_Rosa
             if(dgvPersonas.SelectedItem is Persona personaSeleccionada){
                 if(string.IsNullOrWhiteSpace(txtNombre.Text) || 
                    string.IsNullOrWhiteSpace(txtApellido.Text) || 
-                   string.IsNullOrWhiteSpace(txtEdad.Text))
+                   string.IsNullOrWhiteSpace(txtEdad.Text) ||
+                   string.IsNullOrWhiteSpace(dpFecha)
                 {
                     MessageBox.Show("Por favor, rellene todos los campos.");
                     return;
@@ -144,6 +147,7 @@ namespace EjemploGrid_Rosa
                     personaSeleccionada.Nombre = txtNombre.Text;
                     personaSeleccionada.Apellidos = txtApellido.Text;
                     personaSeleccionada.Edad = edad;
+                    personaSeleccionada.Fecha_nacimiento = dpFecha.SelectedDate.HasValue ? dpFecha.SelectedDate.Value : DateTime.Now;
                     personaSeleccionada.actualizar();
                     start();
                     cargarPersonas();
