@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Javier\\Downloads\\Ajedrez\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\alfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\alfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\pieza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\pieza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\caballo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\caballo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\peon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\peon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\posicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\posicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\reina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\reina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\rey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\rey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\torre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\torre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|c:\\users\\javier\\downloads\\ajedrez\\ajedrez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81EC097-7F17-446C-A88F-8333EAACB01E}|Ajedrez\\Ajedrez.csproj|solutionrelative:ajedrez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Juego.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Juego.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Juego.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Juego.cs",
+              "RelativeToolTip": "Ajedrez\\Juego.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:32:02.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tablero.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Tablero.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Tablero.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Tablero.cs",
+              "RelativeToolTip": "Ajedrez\\Tablero.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwG0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:31:39.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Peon.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Peon.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Peon.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Peon.cs",
+              "RelativeToolTip": "Ajedrez\\Peon.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:31:09.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rey.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Rey.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Rey.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Rey.cs",
+              "RelativeToolTip": "Ajedrez\\Rey.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:30:49.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reina.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Reina.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Reina.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Reina.cs",
+              "RelativeToolTip": "Ajedrez\\Reina.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwAsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:30:18.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Alfil.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Alfil.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Alfil.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Alfil.cs",
+              "RelativeToolTip": "Ajedrez\\Alfil.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:29:35.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Torre.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Torre.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Torre.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Torre.cs",
+              "RelativeToolTip": "Ajedrez\\Torre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:28:48.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Caballo.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Caballo.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Caballo.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Caballo.cs",
+              "RelativeToolTip": "Ajedrez\\Caballo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvwoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:28:18.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pieza.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Pieza.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Pieza.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Pieza.cs",
+              "RelativeToolTip": "Ajedrez\\Pieza.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:25:50.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Posicion.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Posicion.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Posicion.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Posicion.cs",
+              "RelativeToolTip": "Ajedrez\\Posicion.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:25:25.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Program.cs",
+              "RelativeDocumentMoniker": "Ajedrez\\Program.cs",
+              "ToolTip": "C:\\Users\\Javier\\Downloads\\Ajedrez\\Ajedrez\\Program.cs",
+              "RelativeToolTip": "Ajedrez\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:22:26.54Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
