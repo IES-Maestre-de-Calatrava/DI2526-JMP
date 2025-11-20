@@ -33,20 +33,6 @@ namespace EjemploGrid_Rosa
             persona = new Persona();
             cargarPersonas();
 
-
-            /*
-            // Descargamos los datos de la base de datos (simulada)
-            //1º Intstanciamos la Persona y la inicializamos, para ello hemos creado un constructor vacio
-            Persona persona = new Persona();
-            
-            lstPersonas = persona.getPersonas();
-
-            // 3º Sincronizamos la lista con el DataGridView
-            dgvPersonas.ItemsSource = lstPersonas;
-            dgvPersonasEdad.ItemsSource = lstPersonas;
-            */
-
-
         }
 
 
@@ -69,6 +55,9 @@ namespace EjemploGrid_Rosa
             txtApellido.Text = "";
             txtNombre.Text = "";    
             txtEdad.Text = "";
+            dpFecha.SelectedDate = null;
+            txtAltura.Text = "";
+            txtTelefono.Text = "";
             dgvPersonas.SelectedItem = null;
             dgvPersonasEdad.SelectedItem = null;
         }
@@ -83,6 +72,9 @@ namespace EjemploGrid_Rosa
                 txtNombre.Text = personaSeleccionada.Nombre;
                 txtApellido.Text = personaSeleccionada.Apellidos;
                 txtEdad.Text = personaSeleccionada.Edad.ToString();
+                dpFecha.SelectedDate = personaSeleccionada.Fecha_nacimiento;
+                txtAltura.Text = personaSeleccionada.Altura.ToString();
+                txtTelefono.Text = personaSeleccionada.Telefono.ToString();
 
                 // Habilita los botones de Update y Delete para la edición
                 btnUpdate.IsEnabled = true;
@@ -98,7 +90,9 @@ namespace EjemploGrid_Rosa
             if(string.IsNullOrWhiteSpace(txtNombre.Text) || 
                 string.IsNullOrWhiteSpace(txtApellido.Text) || 
                 string.IsNullOrWhiteSpace(txtEdad.Text) ||
-                string.IsNullOrWhiteSpace(dpFecha)
+                string.IsNullOrWhiteSpace(txtAltura.Text) ||
+                string.IsNullOrWhiteSpace(txtTelefono.Text) ||
+                !dpFecha.SelectedDate.HasValue)
             {
                 MessageBox.Show("Por favor, rellene todos los campos.");
                 return;
@@ -111,9 +105,11 @@ namespace EjemploGrid_Rosa
                 // Añadimos la persona con los datos actualizados
                     String nombre = txtNombre.Text;
                     String apellido = txtApellido.Text;
-                    DateTime fechaNacimiento = dpFecha.SelectedDate.HasValue ? dpFecha.SelectedDate.Value : DateTime.Now;
+                    DateTime fechaNacimiento = dpFecha.SelectedDate.Value.Date; // esto pone a la fecha seleccionada 00:00:00
+                    double altura = double.Parse(txtAltura.Text);
+                    long telefono = long.Parse(txtTelefono.Text);
 
-                    Persona persona = new Persona(nombre, apellido, edad, fecha_nacimiento);
+                    Persona persona = new Persona(nombre, apellido, edad, fechaNacimiento, altura, telefono);
                     persona.insertar();
 
                     lstPersonas.Add(persona);
@@ -135,7 +131,9 @@ namespace EjemploGrid_Rosa
                 if(string.IsNullOrWhiteSpace(txtNombre.Text) || 
                    string.IsNullOrWhiteSpace(txtApellido.Text) || 
                    string.IsNullOrWhiteSpace(txtEdad.Text) ||
-                   string.IsNullOrWhiteSpace(dpFecha)
+                   string.IsNullOrWhiteSpace(txtAltura.Text) ||
+                   string.IsNullOrWhiteSpace(txtTelefono.Text) ||
+                   !dpFecha.SelectedDate.HasValue)  //esto es que si no se ha seleccionado fecha
                 {
                     MessageBox.Show("Por favor, rellene todos los campos.");
                     return;
@@ -147,7 +145,8 @@ namespace EjemploGrid_Rosa
                     personaSeleccionada.Nombre = txtNombre.Text;
                     personaSeleccionada.Apellidos = txtApellido.Text;
                     personaSeleccionada.Edad = edad;
-                    personaSeleccionada.Fecha_nacimiento = dpFecha.SelectedDate.HasValue ? dpFecha.SelectedDate.Value : DateTime.Now;
+                    personaSeleccionada.Fecha_nacimiento = dpFecha.SelectedDate.Value.Date; // esto igual pone 00:00:00
+                    personaSeleccionada.Altura = double.Parse(txtAltura.Text);
                     personaSeleccionada.actualizar();
                     start();
                     cargarPersonas();
@@ -162,19 +161,6 @@ namespace EjemploGrid_Rosa
                 return;
             }
             start();
-
-
-
-
-            /* Esto lo hago guardandome la posicion del objeto seleccionado y eliminandolo para insertar uno nuevo en esa posicion, pero no es necesario
-            Persona persona = (Persona)dgvPersonas.SelectedItem;
-            List<Persona> lst =(List<Persona>)dgvPersonas.ItemsSource;
-            int posicion = lst.IndexOf(persona);
-            lst.Remove(persona);
-            lst.Insert(posicion, new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text)));
-            dgvPersonas.Items.Refresh();
-            */
-            
 
         }
 
@@ -204,25 +190,26 @@ namespace EjemploGrid_Rosa
 
         private void cbFiltroEdad_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            /*
+            
             AplicarFiltroEdad();
-            */
+            
         }
 
         private void BtnMostrarTodos_Click(object sender, RoutedEventArgs e)
         {
-            /*
+            
             var ordenado = lstPersonas.OrderBy(p => p.Edad);
             dgvPersonas.ItemsSource = ordenado.ToList();
             dgvPersonasEdad.ItemsSource = ordenado.ToList();
-            dgvPersonas.Items.Refresh();
-            dgvPersonasEdad.Items.Refresh();
-            */
+            
+           dgvPersonas.Items.Refresh();
+           dgvPersonasEdad.Items.Refresh();
+            
         }
 
         private void txtFiltro_TextChanged(object sender, TextChangedEventArgs e)
         {
-            /*
+            
             if (cbFiltro.SelectedItem == ciFiltroNombre)
             {
                 AplicarFiltroNombre();
@@ -236,6 +223,10 @@ namespace EjemploGrid_Rosa
             {
                 AplicarFiltroEdad();
             }
+            else if(cbFiltro.SelectedItem == ciFiltroFecha)
+            {
+                AplicarFiltroFecha();
+            }
 
             else
             {
@@ -245,7 +236,7 @@ namespace EjemploGrid_Rosa
                 dgvPersonas.Items.Refresh();
                 dgvPersonasEdad.Items.Refresh();
             }
-            */
+            
         }
 
 
@@ -312,9 +303,29 @@ namespace EjemploGrid_Rosa
             dgvPersonas.Items.Refresh();
         }
 
+        private void AplicarFiltroFecha()
+        {
+
+            DateTime fechaFiltro;  // ES TIPO DATETIME, EL FORMATO PARA EL FILTRADO ES; "AAAA-MM-DD"
+            if (!DateTime.TryParse(txtFiltro.Text, out fechaFiltro))
+            {
+                // Si no es una fecha válida, mostramos todas las personas
+                dgvPersonas.ItemsSource = lstPersonas;
+                dgvPersonasEdad.ItemsSource = lstPersonas;
+                dgvPersonas.Items.Refresh();
+                dgvPersonasEdad.Items.Refresh();
+                return;
+            }
+            var resultado = lstPersonas.Where(p => p.Fecha_nacimiento.Date == fechaFiltro.Date);
+            dgvPersonas.ItemsSource = resultado.ToList();
+            dgvPersonasEdad.ItemsSource = resultado.ToList();
+            dgvPersonasEdad.Items.Refresh();
+            dgvPersonas.Items.Refresh();
+        }
+
         private void Sort_Click(object sender, RoutedEventArgs e)
         {
-            /*
+            
             if (cbOrden.SelectedItem == ciOrdenNombre)
             {
                 OrdenarPorNombre();
@@ -338,7 +349,7 @@ namespace EjemploGrid_Rosa
                 dgvPersonas.Items.Refresh();
                 dgvPersonasEdad.Items.Refresh();
             }
-            */
+            
         }
 
 
@@ -375,7 +386,7 @@ namespace EjemploGrid_Rosa
 
         private void BtnMaximo_Click(object sender, RoutedEventArgs e)
         {
-            /*
+          
 
             Persona personaMayor = lstPersonas.OrderByDescending(p => p.Edad).FirstOrDefault();
 
@@ -386,7 +397,7 @@ namespace EjemploGrid_Rosa
             dgvPersonasEdad.Items.Refresh();
             dgvPersonas.Items.Refresh();
 
-            */
+            
 
         }
     }

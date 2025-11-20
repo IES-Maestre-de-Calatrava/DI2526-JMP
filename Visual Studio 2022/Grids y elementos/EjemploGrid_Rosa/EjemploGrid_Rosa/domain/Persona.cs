@@ -18,25 +18,43 @@ namespace EjemploGrid_Rosa.domain
         private String apellidos;
         private int edad;
         private DateTime fecha_nacimiento;
+        private Double altura;
+        private long telefono;
 
         private List<Persona> listaPersonas;
         public PersonaPersistence pm = new PersonaPersistence();
         int Id_;
 
-        public Persona(int id, string nombre, string apellidos, int edad, DateTime fecha_nacimiento)
+        public Persona(int id, string nombre, string apellidos, int edad, DateTime fecha_nacimiento, double altura, long telefono)
         {
             this.id = id;
             this.nombre = nombre;
             this.apellidos = apellidos;
             this.edad = edad;
             this.fecha_nacimiento = fecha_nacimiento;
+            this.altura = altura;
+            this.telefono = telefono;
         }
 
-        public Persona(string nombre, string apellidos, int edad)
+        public Persona(string nombre, string apellidos, int edad, double altura, long telefono)
         {
             this.nombre = nombre;
             this.apellidos = apellidos;
             this.edad = edad;
+            this.altura = altura;
+            this.telefono = telefono;
+        }
+
+
+        public Persona(string nombre, string apellidos, int edad, DateTime fecha_nacimiento, double altura, long telefono)
+        {
+
+            this.nombre = nombre;
+            this.apellidos = apellidos;
+            this.edad = edad;
+            this.fecha_nacimiento = fecha_nacimiento;
+            this.altura = altura;
+            this.telefono = telefono;
         }
 
 
@@ -64,10 +82,9 @@ namespace EjemploGrid_Rosa.domain
         public String Nombre { get => nombre; set => nombre = value; }
         public String Apellidos { get => apellidos; set => apellidos = value; }
         public int Edad { get => edad; set => edad = value; }
-
         public DateTime Fecha_nacimiento { get => fecha_nacimiento; set => fecha_nacimiento = value; }
-
-
+        public double Altura { get => altura; set => altura = value; }
+        public long Telefono { get => telefono; set => telefono = value; }
 
         public void insertar()
         {

@@ -17,18 +17,20 @@ namespace AceptasElReto
         private String apellidos;
         private int especialidad;
         private int grupo;
+        private string nombreCurso;
 
         private List<Alumnado> listaPersonas;
         public AlumnadoPersistence pm = new AlumnadoPersistence();
         int Id_;
 
-        public Alumnado(int id, string nombre, string apellidos, int especialidad, int grupo)
+        public Alumnado(int id, string nombre, string apellidos, int especialidad, int grupo, string nombreCurso)
         {
             this.idAlumnado = id;
             this.nombre = nombre;
             this.apellidos = apellidos;
             this.especialidad = especialidad;
             this.grupo = grupo;
+            this.nombreCurso = nombreCurso;
         }
 
         public Alumnado(string nombre, string apellidos, int especialidad, int curso)
@@ -37,6 +39,7 @@ namespace AceptasElReto
             this.apellidos = apellidos;
             this.especialidad = especialidad;
             this.grupo = curso;
+            this.nombreCurso = "desconocido";
         }
 
 
@@ -65,8 +68,10 @@ namespace AceptasElReto
         public String Apellidos { get => apellidos; set => apellidos = value; }
         public int Especialidad { get => especialidad; set => especialidad = value; }
         public int Grupo { get => grupo; set => grupo = value; }
+        public string NombreCurso { get => nombreCurso; set => nombreCurso = value; }
 
-       
+
+
 
         public void insertar()
         {

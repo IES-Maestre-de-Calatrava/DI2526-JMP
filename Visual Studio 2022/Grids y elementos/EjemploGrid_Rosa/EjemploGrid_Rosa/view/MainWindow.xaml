@@ -24,25 +24,43 @@
                             <RowDefinition Height="208*"/>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2.5*"/>
                             <ColumnDefinition Width="2.5*"/>
                         </Grid.ColumnDefinitions>
-                        <StackPanel Margin="15,15,10,-24" Grid.RowSpan="2">
+                        <StackPanel Margin="15,0,164,0" Grid.RowSpan="2">
                             <Label x:Name="lbNombre" Content="Nombre"/>
-                            <TextBox x:Name="txtNombre" Width="200" Margin="10"/>
+                            <TextBox x:Name="txtNombre" Width="138"/>
                             <Label x:Name="lbApellido" Content="Apellido"/>
-                            <TextBox x:Name="txtApellido" Width="200" Margin="10"/>
+                            <TextBox x:Name="txtApellido" Width="139" Margin="10"/>
                             <Label x:Name="lbEdad" Content="Edad"/>
-                            <TextBox x:Name="txtEdad" Width="200" Margin="10"/>
+                            <TextBox x:Name="txtEdad" Width="144" Margin="10"/>
 
                         </StackPanel>
 
 
 
-                        <DataGrid x:Name="dgvPersonas" Grid.Column="1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="196,20,20,20" SelectionChanged="dgvPersonas_SelectionChange" Grid.RowSpan="2"/>
-                        <Label Content="Seleccione Fecha" Grid.Column="1" HorizontalAlignment="Left" Margin="36,7,0,0" VerticalAlignment="Top" Width="120" Grid.Row="1" />
-                        <DatePicker x:Name="dpFecha" Grid.Column="1" HorizontalAlignment="Left" Margin="23,46,0,0" VerticalAlignment="Top" Grid.Row="1"/>
-                        <Button Content="Guardar Fecha" HorizontalAlignment="Left" Margin="47,89,0,0" VerticalAlignment="Top" Grid.Column="1" Width="96" Click="Button_Guardarfecha_click" Grid.Row="1"/>
+                        <DataGrid x:Name="dgvPersonas" Grid.Column="1" Margin="26,20,20,20" SelectionChanged="dgvPersonas_SelectionChange" Grid.RowSpan="2" AutoGenerateColumns="False">
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}"/>
+
+                                <DataGridTextColumn Header="Apellido" Binding="{Binding Apellidos}" />
+
+                                <DataGridTextColumn Header="Edad" Binding="{Binding Edad}" />
+
+                                <DataGridTextColumn Header="Fecha Nacimiento" Binding="{Binding Fecha_nacimiento, StringFormat=\{0:dd/MM/yyyy\}}" />
+
+                                <DataGridTextColumn Header="Altura" Binding="{Binding Altura}" />
+
+                                <DataGridTextColumn Header="Teléfono" Binding="{Binding Telefono}" />
+
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                        
+                        
+                        <Label Content="Seleccione Fecha" HorizontalAlignment="Left" Margin="15,153,0,0" VerticalAlignment="Top" Width="120" Grid.Row="1" />
+                        <DatePicker x:Name="dpFecha" HorizontalAlignment="Left" Margin="24,174,0,0" VerticalAlignment="Top" Grid.Row="1" Width="165" />
 
                     </Grid>
                     <Grid Grid.Row="1">
@@ -55,6 +73,10 @@
                         <Button x:Name="btnUpdate" Grid.Column="1" Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Width="168" Background="#FFC3CAFF" BorderBrush="Black" BorderThickness="1.5" Click="btnUpdate_Click"/>
                         <Button x:Name="btnDelete" Grid.Column="2" Content="Eliminar" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Width="168" Background="#FFC3CAFF" BorderBrush="Black" BorderThickness="1.5" Click="btnDelete_Click"/>
                     </Grid>
+                    <Label Content="Altura" HorizontalAlignment="Left" Margin="209,0,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Telefono" HorizontalAlignment="Left" Margin="211,48,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name ="txtAltura" HorizontalAlignment="Left" Margin="211,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name ="txtTelefono" TextWrapping="Wrap" Margin="211,79,399,129"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Ejercicio2">
@@ -69,6 +91,7 @@
                             <ComboBoxItem x:Name="ciFiltroNombre" Content="Filtrar por Nombre"/>
                             <ComboBoxItem x:Name="ciFiltroApellido" Content="Filtrar por Apellido"/>
                             <ComboBoxItem  x:Name="ciFiltroEdad" Content="Filtrar por Edad"/>
+                            <ComboBoxItem x:Name="ciFiltroFecha" Content="Filtrar por Fecha"/>
                         </ComboBox>
                         <TextBox x:Name="txtFiltro" Margin="178,7,489,61" Height="27" TextChanged="txtFiltro_TextChanged"/>
 

@@ -18,6 +18,10 @@ namespace AceptasElReto
     {
         private List<Alumnado> lstPersonas;
         private Alumnado persona;
+
+        private List<Alumnado> lstAlumnosSinGrupo;
+        private List<Alumnado> lstAlumnosEnGrupo;
+        private List<AceptasElReto.domain.Grupo> lstGrupos;
         public MainWindow()
         {
             InitializeComponent();
@@ -26,21 +30,7 @@ namespace AceptasElReto
             // Descargar los registros de la base de datos
             persona = new Alumnado();
             cargarPersonas();
-
-
-            /*
-            // Descargamos los datos de la base de datos (simulada)
-            //1º Intstanciamos la Persona y la inicializamos, para ello hemos creado un constructor vacio
-            Persona persona = new Persona();
-            
-            lstPersonas = persona.getPersonas();
-
-            // 3º Sincronizamos la lista con el DataGridView
-            dgvPersonas.ItemsSource = lstPersonas;
-            dgvPersonasEdad.ItemsSource = lstPersonas;
-            */
-
-
+            cargarDatosAsignacion();
         }
 
 
@@ -55,16 +45,34 @@ namespace AceptasElReto
             }
 
             dgvPersonas.ItemsSource = lstPersonas;
-            //dgvPersonasEdad.ItemsSource = lstPersonas;
+        }
+
+        private void cargarDatosAsignacion()
+        {
+            // 1. Cargar Grupos Existentes
+            // Necesitas acceder a GrupoPersistence (asegúrate del 'using' o usa el namespace completo)
+            lstGrupos = AceptasElReto.persistence.manage.GrupoPersistence.LeerGrupos();
+            dgvGrupos.ItemsSource = lstGrupos;
+
+            // 2. Cargar Alumnos SIN Asignar
+            lstAlumnosSinGrupo = AlumnadoPersistence.LeerAlumnosSinGrupo();
+            dgvAlumnosSinGrupo.ItemsSource = lstAlumnosSinGrupo;
+
+            // 3. Inicializar la lista de Alumnos En Grupo (vacía o con la selección por defecto)
+            // Se llenará al seleccionar un grupo. La inicializamos vacía.
+            lstAlumnosEnGrupo = new List<Alumnado>();
+            dgvAlumnosEnGrupo.ItemsSource = lstAlumnosEnGrupo;
         }
 
         public void start()
         {
             txtApellido.Text = "";
             txtNombre.Text = "";
-            txtCurso.Text = "";
+            cb.Text = "";
             dgvPersonas.SelectedItem = null;
-            //dgvPersonasEdad.SelectedItem = null;
+            dgvAlumnosSinGrupo.SelectedItem = null;
+            dgvAlumnosEnGrupo.SelectedItem = null;
+            dgvGrupos.SelectedItem = null;
         }
 
 
@@ -76,7 +84,7 @@ namespace AceptasElReto
                 // Carga los datos de la persona seleccionada en los TextBox
                 txtNombre.Text = personaSeleccionada.Nombre;
                 txtApellido.Text = personaSeleccionada.Apellidos;
-                txtCurso.Text = personaSeleccionada.Grupo.ToString();
+                cb.Text = personaSeleccionada.Grupo.ToString();
 
                 // Habilita los botones de Update y Delete para la edición
                 btnUpdate.IsEnabled = true;
@@ -90,33 +98,24 @@ namespace AceptasElReto
         {
 
             if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
-                string.IsNullOrWhiteSpace(txtApellido.Text) ||
-                string.IsNullOrWhiteSpace(txtCurso.Text))
+                string.IsNullOrWhiteSpace(txtApellido.Text))
             {
                 MessageBox.Show("Por favor, rellene todos los campos.");
                 return;
             }
 
-            if (int.TryParse(txtCurso.Text, out int curso))
-            {
+            // Añadimos la persona con los datos actualizados
+            String nombre = txtNombre.Text;
+            String apellido = txtApellido.Text;
+            int grupo = seleccionarCursoComercio();
 
+            Alumnado persona = new Alumnado(nombre, apellido, 1, grupo);
+            persona.insertar();
 
-                // Añadimos la persona con los datos actualizados
-                String nombre = txtNombre.Text;
-                String apellido = txtApellido.Text;
+            lstPersonas.Add(persona);
 
-                Alumnado persona = new Alumnado(nombre, apellido,1, curso);
-                persona.insertar();
-
-                lstPersonas.Add(persona);
-
-                start();
-                cargarPersonas();
-            }
-            else
-            {
-                MessageBox.Show("Por favor, ingrese una edad válida.");
-            }
+            start();
+            cargarPersonas();
 
         }
 
@@ -126,35 +125,20 @@ namespace AceptasElReto
             if (dgvPersonas.SelectedItem is Alumnado personaSeleccionada)
             {
                 if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
-                   string.IsNullOrWhiteSpace(txtApellido.Text) ||
-                   string.IsNullOrWhiteSpace(txtCurso.Text))
+                   string.IsNullOrWhiteSpace(txtApellido.Text))
                 {
                     MessageBox.Show("Por favor, rellene todos los campos.");
                     return;
                 }
-
-                if (int.TryParse(txtCurso.Text, out int curso))
-                {
-                    // Actualizamos los datos de la persona seleccionada
-                    personaSeleccionada.Nombre = txtNombre.Text;
-                    personaSeleccionada.Apellidos = txtApellido.Text;
-                    personaSeleccionada.Grupo = curso;
-                    personaSeleccionada.actualizar();
-                    start();
-                    cargarPersonas();
-
-                }
-                else
-                {
-                    MessageBox.Show("Por favor, ingrese una edad válida.");
-                }
+                // Actualizamos los datos de la persona seleccionada
+                personaSeleccionada.Nombre = txtNombre.Text;
+                personaSeleccionada.Apellidos = txtApellido.Text;
+                personaSeleccionada.Grupo = seleccionarCursoComercio();
+                personaSeleccionada.actualizar();
+                start();
+                cargarPersonas();
+                start();
             }
-            else
-            {
-                MessageBox.Show("Por favor, seleccione una persona para actualizar.");
-                return;
-            }
-            start();
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
@@ -179,203 +163,87 @@ namespace AceptasElReto
 
         }
 
-
-
-        /*
-        private void cbFiltroEdad_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void cb_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
-            AplicarFiltroEdad();
-            
-        }
-        
-
-        private void BtnMostrarTodos_Click(object sender, RoutedEventArgs e)
-        {
-            
-            var ordenado = lstPersonas.OrderBy(p => p.Edad);
-            dgvPersonas.ItemsSource = ordenado.ToList();
-            dgvPersonasEdad.ItemsSource = ordenado.ToList();
-            dgvPersonas.Items.Refresh();
-            dgvPersonasEdad.Items.Refresh();
-            
+            seleccionarCursoComercio();
         }
 
-        private void txtFiltro_TextChanged(object sender, TextChangedEventArgs e)
+        private int seleccionarCursoComercio()
         {
-            
-            if (cbFiltro.SelectedItem == ciFiltroNombre)
+            int curso = 0;
+
+            if (cb.SelectedItem == SCI1)
             {
-                AplicarFiltroNombre();
+                curso = 1;
             }
-
-            else if (cbFiltro.SelectedItem == ciFiltroApellido) { 
-                AplicarFiltroApellido();
-            }
-
-            else if (cbFiltro.SelectedItem == ciFiltroEdad)
+            else
+                if (cb.SelectedItem == SCI2)
             {
-                AplicarFiltroEdad();
+                curso = 2;
             }
 
+            return curso;
+        }
+
+        public void dgvGrupos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Nota: La clase Grupo está en AceptasElReto.domain
+            if (dgvGrupos.SelectedItem is AceptasElReto.domain.Grupo grupoSeleccionado)
+            {
+                // 1. Cargar la lista filtrada de la BBDD
+                lstAlumnosEnGrupo = AlumnadoPersistence.LeerAlumnosPorGrupo(grupoSeleccionado.IdGrupo);
+
+                // 2. Asignar la nueva lista al DataGrid de la derecha
+                dgvAlumnosEnGrupo.ItemsSource = lstAlumnosEnGrupo;
+
+                // Es importante refrescar el DataGrid para asegurar que los datos se muestren
+                dgvAlumnosEnGrupo.Items.Refresh();
+            }
             else
             {
-                // Si no hay filtro seleccionado, mostramos todas las personas
-                dgvPersonas.ItemsSource = lstPersonas;
-                dgvPersonasEdad.ItemsSource = lstPersonas;
-                dgvPersonas.Items.Refresh();
-                dgvPersonasEdad.Items.Refresh();
+                // Si se deselecciona o la selección es nula, vaciamos la lista
+                dgvAlumnosEnGrupo.ItemsSource = new List<Alumnado>();
+                dgvAlumnosEnGrupo.Items.Refresh();
             }
-            
         }
 
-
-        private void AplicarFiltroEdad()
+        private void btnAsignar_Click(object sender, RoutedEventArgs e)
         {
-
-            if (!int.TryParse(txtFiltro.Text, out int edadFiltro))
+            // 1. Verificar si hay un grupo seleccionado
+            if (dgvGrupos.SelectedItem is not AceptasElReto.domain.Grupo grupoSeleccionado)
             {
-                // Si no es un número válido, mostramos todas las personas
-                dgvPersonas.ItemsSource = lstPersonas;
-                dgvPersonasEdad.ItemsSource = lstPersonas;
-                dgvPersonas.Items.Refresh();
-                dgvPersonasEdad.Items.Refresh();
+                MessageBox.Show("Por favor, seleccione un grupo de destino.");
                 return;
             }
 
-            IEnumerable<Persona> resultado;
+            // 2. Obtener los alumnos seleccionados en la lista de la izquierda (Sin Grupo)
+            var alumnosAAsignar = dgvAlumnosSinGrupo.SelectedItems.OfType<Alumnado>().ToList();
 
-            if (cbFiltroEdad.SelectedItem == ciOlderThan)
+            if (alumnosAAsignar.Count == 0)
             {
-                 //Con LAMBDA expression syntax 
-                resultado = lstPersonas.Where(p => p.Edad > edadFiltro);
+                MessageBox.Show("Seleccione al menos un alumno para asignar.");
+                return;
             }
 
-            else if (cbFiltroEdad.SelectedItem == ciYoungerThan)
+            int idDestino = grupoSeleccionado.IdGrupo;
+
+            // 3. Actualizar la base de datos para cada alumno
+            foreach (var alumno in alumnosAAsignar)
             {
-                // Con LAMBDA expression syntax 
-                resultado = lstPersonas.Where(p => p.Edad < edadFiltro);
+                // 🚨 CRUCIAL: Modificar el objeto y llamar a la persistencia para hacer UPDATE
+                alumno.Grupo = idDestino;
+                // Asumiendo que tienes un método 'actualizar' en la clase Alumnado que llama a la persistencia
+                alumno.actualizar();
             }
 
-            else if (cbFiltroEdad.SelectedItem == ciExactly)
-            {
-                // Con LAMBDA expression syntax 
-                resultado = lstPersonas.Where(p => p.Edad == edadFiltro);
-            }
-            else
-            {
-                // Si no hay filtro seleccionado, mostramos todas las personas
-                resultado = lstPersonas;
-            }
+            // 4. Recargar y refrescar las tres listas para reflejar el cambio
+            cargarDatosAsignacion(); // Recarga la lista de Grupos (no cambia), la lista SIN Grupo y la lista EN Grupo
 
-            // Y Aqui abajo hacemos el ToList() y el refresh del DataGrid
-            dgvPersonas.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.Items.Refresh();
-            dgvPersonas.Items.Refresh();
+            cargarPersonas(); // Carga la lista completa de personas nueva
+
+            // Opcional: Volver a seleccionar el grupo que se estaba editando para que se muestre la lista de la derecha actualizada
+            dgvGrupos.SelectedItem = grupoSeleccionado;
         }
-
-
-        private void AplicarFiltroNombre()
-        {
-            string filtroEnMinusculas = txtFiltro.Text.ToLower();
-            var resultado = lstPersonas.Where(p => p.Nombre.ToLower().Contains(txtFiltro.Text));
-
-            dgvPersonas.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.Items.Refresh();
-            dgvPersonas.Items.Refresh();
-        }
-
-        private void AplicarFiltroApellido()
-        {
-            string filtroEnMinusculas = txtFiltro.Text.ToLower();
-            var resultado = lstPersonas.Where(p => p.Apellidos.ToLower().Contains(txtFiltro.Text));
-            dgvPersonas.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.Items.Refresh();
-            dgvPersonas.Items.Refresh();
-        }
-
-        private void Sort_Click(object sender, RoutedEventArgs e)
-        {
-            
-            if (cbOrden.SelectedItem == ciOrdenNombre)
-            {
-                OrdenarPorNombre();
-            }
-
-            else if (cbOrden.SelectedItem == ciOrdenApellido)
-            {
-                OrdenarPorApellido();
-            }
-
-            else if (cbOrden.SelectedItem == ciOrdenEdad)
-            {
-                OrdenarPorEdad();
-            }
-
-            else
-            {
-                // Si no se ha seleccionado un filtro de orden, mostramos todas las personas
-                dgvPersonas.ItemsSource = lstPersonas;
-                dgvPersonasEdad.ItemsSource = lstPersonas;
-                dgvPersonas.Items.Refresh();
-                dgvPersonasEdad.Items.Refresh();
-            }
-            
-        }
-
-
-        private void OrdenarPorNombre()
-        {
-            var resultado = lstPersonas.OrderBy(p => p.Nombre.ToLower());
-
-            dgvPersonas.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.Items.Refresh();
-            dgvPersonas.Items.Refresh();
-        }
-
-
-        private void OrdenarPorApellido()
-        {
-            var resultado = lstPersonas.OrderBy(p => p.Apellidos.ToLower());
-
-            dgvPersonas.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.Items.Refresh();
-            dgvPersonas.Items.Refresh();
-        }
-
-        private void OrdenarPorEdad()
-        {
-            var resultado = lstPersonas.OrderBy(p => p.Edad);
-
-            dgvPersonas.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.ItemsSource = resultado.ToList();
-            dgvPersonasEdad.Items.Refresh();
-            dgvPersonas.Items.Refresh();
-        }
-
-        private void BtnMaximo_Click(object sender, RoutedEventArgs e)
-        {
-            
-
-            Persona personaMayor = lstPersonas.OrderByDescending(p => p.Edad).FirstOrDefault();
-
-            var listaUnaPersona = new List<Persona> { personaMayor };
-
-            dgvPersonas.ItemsSource = listaUnaPersona;
-            dgvPersonasEdad.ItemsSource = listaUnaPersona;
-            dgvPersonasEdad.Items.Refresh();
-            dgvPersonas.Items.Refresh();
-
-            
-
-        }
-        */
 
     }
-
 }
